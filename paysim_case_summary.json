@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-21T04:29:14+00:00",
+  "transactions_processed": 500,
+  "cases_in_current_escalation_queue": 26,
+  "total_saved_cases": 26,
+  "priority_counts": {
+    "P2-HIGH": 20,
+    "P1-CRITICAL": 6
+  },
+  "case_status_counts": {
+    "OPEN": 26
+  },
+  "note": "Cases are decision-support records. No real banking action or transaction blocking is performed."
+}

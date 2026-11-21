@@ -1,0 +1,38 @@
+{
+  "experiment": "Validation-based threshold selection",
+  "model": "XGBoost",
+  "strategy": "class_weight",
+  "train_cutoff_step": 446,
+  "validation_cutoff_step": 594,
+  "train_rows": 300000,
+  "validation_rows": 228091,
+  "test_rows": 123580,
+  "selection_metric": "F1",
+  "selected_threshold": 0.9500000000000002,
+  "validation_metrics_at_selected_threshold": {
+    "Threshold": 0.9500000000000002,
+    "Precision": 0.6578054298642534,
+    "Recall": 0.7551948051948052,
+    "F1": 0.7031438935912938,
+    "True_Positives": 1163,
+    "False_Positives": 605,
+    "True_Negatives": 225946,
+    "False_Negatives": 377,
+    "False_Positive_Rate": 0.002670480377486747
+  },
+  "validation_average_precision": 0.789582481156773,
+  "test_metrics_at_selected_threshold": {
+    "Threshold": 0.9500000000000002,
+    "Precision": 0.7844932844932845,
+    "Recall": 0.7769044740024184,
+    "F1": 0.7806804374240583,
+    "True_Positives": 1285,
+    "False_Positives": 353,
+    "True_Negatives": 121573,
+    "False_Negatives": 369,
+    "False_Positive_Rate": 0.0028951987270967637
+  },
+  "test_average_precision": 0.8480674860275165,
+  "test_roc_auc": 0.9934388761704748,
+  "warning": "This threshold belongs to this newly trained experiment. Do not apply it to the existing saved model unless the model, preprocessing, data split, and score calibration are verified to match."
+}

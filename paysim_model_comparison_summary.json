@@ -1,0 +1,14 @@
+{
+  "experiment": "PaySim chronological model and strategy comparison",
+  "train_cutoff_step": 446,
+  "validation_cutoff_step": 594,
+  "threshold_used": 0.5,
+  "successful_runs": 6,
+  "failed_runs": 0,
+  "best_average_precision": {
+    "Model": "XGBoost",
+    "Strategy": "class_weight",
+    "Average_Precision": 0.8480674860275165
+  },
+  "caution": "The test period is used for comparison. Do not repeatedly tune choices on this test set. Select thresholds on validation data and evaluate the final choice once on held-out test data."
+}

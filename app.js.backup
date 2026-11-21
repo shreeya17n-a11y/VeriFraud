@@ -1,0 +1,529 @@
+// =========================================================
+// VeriFraud Dashboard JavaScript
+// =========================================================
+
+
+const transactionSelect =
+    document.getElementById("transactionSelect");
+
+
+// ---------------------------------------------------------
+// Parse SHAP feature strings
+// ---------------------------------------------------------
+
+function parseFeatures(text) {
+
+    if (!text || text === "nan") {
+        return [];
+    }
+
+    const regex =
+        /([A-Za-z0-9_]+)\s+\(([+-]?\d+(?:\.\d+)?)\)/g;
+
+    const features = [];
+
+    let match;
+
+    while ((match = regex.exec(text)) !== null) {
+
+        features.push({
+            name: match[1],
+            value: parseFloat(match[2])
+        });
+
+    }
+
+    return features;
+}
+
+
+// ---------------------------------------------------------
+// Display SHAP features
+// ---------------------------------------------------------
+
+function displayFeatures(
+    containerId,
+    features,
+    type
+) {
+
+    const container =
+        document.getElementById(containerId);
+
+    container.innerHTML = "";
+
+    if (features.length === 0) {
+
+        container.innerHTML =
+            "<p>No feature data available.</p>";
+
+        return;
+    }
+
+
+    features.forEach(feature => {
+
+        const row =
+            document.createElement("div");
+
+        row.className =
+            `feature-row ${type}`;
+
+        const name =
+            document.createElement("span");
+
+        name.className =
+            "feature-name";
+
+        name.textContent =
+            feature.name;
+
+
+        const value =
+            document.createElement("span");
+
+        value.className =
+            `feature-value ${type}`;
+
+        const sign =
+            feature.value >= 0 ? "+" : "";
+
+        value.textContent =
+            `${sign}${feature.value.toFixed(4)}`;
+
+
+        row.appendChild(name);
+
+        row.appendChild(value);
+
+        container.appendChild(row);
+
+    });
+}
+
+
+// ---------------------------------------------------------
+// Display supported features
+// ---------------------------------------------------------
+
+function displaySupportedFeatures(text) {
+
+    const container =
+        document.getElementById(
+            "supportedFeatures"
+        );
+
+    container.innerHTML = "";
+
+    if (!text || text === "nan") {
+
+        container.textContent =
+            "No supported features identified.";
+
+        return;
+    }
+
+    const features =
+        text.split(",").map(
+            item => item.trim()
+        );
+
+    features.forEach(feature => {
+
+        if (!feature) return;
+
+        const tag =
+            document.createElement("span");
+
+        tag.className =
+            "feature-tag";
+
+        tag.textContent =
+            feature;
+
+        container.appendChild(tag);
+
+    });
+}
+
+
+// ---------------------------------------------------------
+// Load transaction details
+// ---------------------------------------------------------
+
+async function loadTransaction(
+    transactionId
+) {
+
+    try {
+
+        const response =
+            await fetch(
+                `/api/transaction/${transactionId}`
+            );
+
+        const data =
+            await response.json();
+
+
+        if (data.error) {
+
+            console.error(data.error);
+
+            return;
+        }
+
+
+        // ---------------------------------------------
+        // Basic transaction data
+        // ---------------------------------------------
+
+        document.getElementById(
+            "transactionId"
+        ).textContent =
+            data.transaction_id;
+
+
+        const probability =
+            data.fraud_probability;
+
+
+        document.getElementById(
+            "fraudProbability"
+        ).textContent =
+            `${(probability * 100).toFixed(2)}%`;
+
+
+        document.getElementById(
+            "probabilityFill"
+        ).style.width =
+            `${probability * 100}%`;
+
+
+        // ---------------------------------------------
+        // Prediction
+        // ---------------------------------------------
+
+        const badge =
+            document.getElementById(
+                "predictionBadge"
+            );
+
+
+        badge.textContent =
+            data.prediction;
+
+
+        badge.className =
+            "prediction-badge";
+
+
+        if (
+            data.prediction.toUpperCase()
+            === "FRAUD"
+        ) {
+
+            badge.classList.add(
+                "fraud"
+            );
+
+        } else {
+
+            badge.classList.add(
+                "safe"
+            );
+
+        }
+
+
+        // ---------------------------------------------
+        // SHAP
+        // ---------------------------------------------
+
+        const positive =
+            parseFeatures(
+                data.positive_features
+            );
+
+
+        const negative =
+            parseFeatures(
+                data.negative_features
+            );
+
+
+        displayFeatures(
+            "positiveFeatures",
+            positive,
+            "positive"
+        );
+
+
+        displayFeatures(
+            "negativeFeatures",
+            negative,
+            "negative"
+        );
+
+
+        // ---------------------------------------------
+        // LLM explanation
+        // ---------------------------------------------
+
+        document.getElementById(
+            "llmExplanation"
+        ).textContent =
+            data.llm_explanation;
+
+
+        // ---------------------------------------------
+        // Verification
+        // ---------------------------------------------
+
+        updateVerification(
+            data
+        );
+
+
+    } catch (error) {
+
+        console.error(
+            "Error loading transaction:",
+            error
+        );
+
+    }
+
+}
+
+
+// ---------------------------------------------------------
+// Verification UI
+// ---------------------------------------------------------
+
+function updateVerification(data) {
+
+    const card =
+        document.getElementById(
+            "verificationCard"
+        );
+
+
+    const icon =
+        document.getElementById(
+            "verificationIcon"
+        );
+
+
+    const status =
+        document.getElementById(
+            "verificationStatus"
+        );
+
+
+    const reason =
+        document.getElementById(
+            "verificationReason"
+        );
+
+
+    card.classList.remove(
+        "faithful",
+        "review",
+        "unsupported"
+    );
+
+
+    icon.className =
+        "verification-icon";
+
+
+    const verification =
+        data.verification_status;
+
+
+    if (
+        verification === "FAITHFUL"
+    ) {
+
+        icon.classList.add(
+            "faithful"
+        );
+
+        icon.textContent =
+            "✓";
+
+        status.textContent =
+            "FAITHFUL";
+
+        status.style.color =
+            "#16a34a";
+
+    }
+
+    else if (
+        verification === "REVIEW_REQUIRED"
+    ) {
+
+        icon.classList.add(
+            "review"
+        );
+
+        icon.textContent =
+            "!";
+
+        status.textContent =
+            "REVIEW REQUIRED";
+
+        status.style.color =
+            "#d97706";
+
+    }
+
+    else {
+
+        icon.classList.add(
+            "unsupported"
+        );
+
+        icon.textContent =
+            "×";
+
+        status.textContent =
+            "UNSUPPORTED";
+
+        status.style.color =
+            "#dc2626";
+
+    }
+
+
+    reason.textContent =
+        data.verification_reason;
+
+
+    displaySupportedFeatures(
+        data.supported_features
+    );
+
+}
+
+
+// ---------------------------------------------------------
+// Load transaction IDs
+// ---------------------------------------------------------
+
+async function loadTransactions() {
+
+    try {
+
+        const response =
+            await fetch(
+                "/api/transactions"
+            );
+
+        const ids =
+            await response.json();
+
+
+        transactionSelect.innerHTML =
+            "";
+
+
+        ids.forEach(id => {
+
+            const option =
+                document.createElement(
+                    "option"
+                );
+
+            option.value = id;
+
+            option.textContent =
+                id;
+
+            transactionSelect.appendChild(
+                option
+            );
+
+        });
+
+
+        if (ids.length > 0) {
+
+            loadTransaction(
+                ids[0]
+            );
+
+        }
+
+    } catch (error) {
+
+        console.error(
+            "Unable to load transactions:",
+            error
+        );
+
+    }
+
+}
+
+
+// ---------------------------------------------------------
+// Load summary
+// ---------------------------------------------------------
+
+async function loadSummary() {
+
+    try {
+
+        const response =
+            await fetch(
+                "/api/summary"
+            );
+
+        const data =
+            await response.json();
+
+
+        document.getElementById(
+            "totalCases"
+        ).textContent =
+            data.total_transactions;
+
+
+    } catch (error) {
+
+        console.error(
+            "Unable to load summary:",
+            error
+        );
+
+    }
+
+}
+
+
+// ---------------------------------------------------------
+// Transaction selector
+// ---------------------------------------------------------
+
+transactionSelect.addEventListener(
+    "change",
+    function () {
+
+        loadTransaction(
+            this.value
+        );
+
+    }
+);
+
+
+// ---------------------------------------------------------
+// Initialize dashboard
+// ---------------------------------------------------------
+
+loadTransactions();
+
+loadSummary();

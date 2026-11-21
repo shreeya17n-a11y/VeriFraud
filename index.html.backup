@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>VeriFraud | Fraud Investigation</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+<div class="app">
+
+    <!-- ================================================= -->
+    <!-- SIDEBAR -->
+    <!-- ================================================= -->
+
+    <aside class="sidebar">
+
+        <div class="brand">
+
+            <div class="brand-mark">
+                VF
+            </div>
+
+            <div>
+
+                <div class="brand-name">
+                    VeriFraud
+                </div>
+
+                <div class="brand-subtitle">
+                    Fraud Investigation
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================================================= -->
+        <!-- TRANSACTION SELECTION -->
+        <!-- ================================================= -->
+
+        <div class="sidebar-section">
+
+            <div class="sidebar-label">
+                INVESTIGATION
+            </div>
+
+            <label
+                class="select-label"
+                for="transactionSelect"
+            >
+                Transaction
+            </label>
+
+            <select
+                id="transactionSelect"
+                class="transaction-select"
+            >
+
+                <option value="">
+                    Loading transactions...
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- ================================================= -->
+        <!-- ANALYSIS PIPELINE -->
+        <!-- ================================================= -->
+
+        <div class="sidebar-section">
+
+            <div class="sidebar-label">
+                ANALYSIS PIPELINE
+            </div>
+
+
+            <div class="pipeline-item active">
+
+                <div class="pipeline-number">
+                    01
+                </div>
+
+                <div>
+
+                    <strong>
+                        Detection
+                    </strong>
+
+                    <span>
+                        XGBoost
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-line"></div>
+
+
+            <div class="pipeline-item">
+
+                <div class="pipeline-number">
+                    02
+                </div>
+
+                <div>
+
+                    <strong>
+                        Explainability
+                    </strong>
+
+                    <span>
+                        SHAP
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-line"></div>
+
+
+            <div class="pipeline-item">
+
+                <div class="pipeline-number">
+                    03
+                </div>
+
+                <div>
+
+                    <strong>
+                        Narration
+                    </strong>
+
+                    <span>
+                        Qwen 2.5 3B
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="pipeline-line"></div>
+
+
+            <div class="pipeline-item">
+
+                <div class="pipeline-number">
+                    04
+                </div>
+
+                <div>
+
+                    <strong>
+                        Verification
+                    </strong>
+
+                    <span>
+                        Faithfulness
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="sidebar-footer">
+
+            <span class="status-dot"></span>
+
+            System operational
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================================================= -->
+    <!-- MAIN -->
+    <!-- ================================================= -->
+
+    <main class="main">
+
+
+        <!-- ================================================= -->
+        <!-- TOP BAR -->
+        <!-- ================================================= -->
+
+        <header class="topbar">
+
+            <div>
+
+                <div class="eyebrow">
+                    FINANCIAL RISK OPERATIONS
+                </div>
+
+                <h1>
+                    Fraud Investigation
+                </h1>
+
+                <p>
+                    Review model decisions, SHAP evidence,
+                    generated explanations and verification results.
+                </p>
+
+            </div>
+
+
+            <div class="engine-status">
+
+                <span class="status-dot"></span>
+
+                <div>
+
+                    <strong>
+                        VeriFraud Engine
+                    </strong>
+
+                    <span>
+                        Operational
+                    </span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- ================================================= -->
+        <!-- SYSTEM SUMMARY -->
+        <!-- ================================================= -->
+
+        <section class="summary-grid">
+
+
+            <div class="summary-card">
+
+                <span class="summary-label">
+                    DETECTION MODEL
+                </span>
+
+                <strong>
+                    XGBoost
+                </strong>
+
+                <small>
+                    Fraud classification
+                </small>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <span class="summary-label">
+                    EXPLAINABILITY
+                </span>
+
+                <strong>
+                    SHAP
+                </strong>
+
+                <small>
+                    Feature attribution
+                </small>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <span class="summary-label">
+                    LOCAL LANGUAGE MODEL
+                </span>
+
+                <strong>
+                    Qwen 2.5 3B
+                </strong>
+
+                <small>
+                    Evidence-grounded narration
+                </small>
+
+            </div>
+
+
+            <div class="summary-card">
+
+                <span class="summary-label">
+                    CASES AVAILABLE
+                </span>
+
+                <strong id="caseCount">
+                    —
+                </strong>
+
+                <small>
+                    Fraud + non-fraud transactions
+                </small>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- CASE HEADER -->
+        <!-- ================================================= -->
+
+        <section class="case-header">
+
+            <div>
+
+                <span class="section-kicker">
+                    CASE REVIEW
+                </span>
+
+                <h2>
+
+                    Transaction
+
+                    <span id="caseId">
+                        —
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div
+                id="predictionBadge"
+                class="badge"
+            >
+                Select Transaction
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- DETECTION -->
+        <!-- ================================================= -->
+
+        <section class="panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <span class="step">
+                        01
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Model Detection
+                        </h3>
+
+                        <p>
+                            XGBoost fraud probability
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="detection-grid">
+
+
+                <div class="metric">
+
+                    <span>
+                        Transaction ID
+                    </span>
+
+                    <strong id="transactionId">
+                        —
+                    </strong>
+
+                </div>
+
+
+                <div class="metric">
+
+                    <span>
+                        Fraud Probability
+                    </span>
+
+                    <strong id="probability">
+                        —
+                    </strong>
+
+
+                    <div class="probability-track">
+
+                        <div
+                            id="probabilityBar"
+                            class="probability-bar"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="metric">
+
+                    <span>
+                        Model Decision
+                    </span>
+
+                    <strong
+                        id="modelDecision"
+                        class="fraud-text"
+                    >
+                        —
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- SHAP -->
+        <!-- ================================================= -->
+
+        <section class="panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <span class="step">
+                        02
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            SHAP Evidence
+                        </h3>
+
+                        <p>
+                            Feature contributions behind
+                            the model decision
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="evidence-grid">
+
+
+                <div class="evidence-card positive">
+
+                    <div class="evidence-title">
+
+                        <span class="indicator positive-dot"></span>
+
+                        <strong>
+                            Contributing to fraud
+                        </strong>
+
+                    </div>
+
+
+                    <div
+                        id="positiveFeatures"
+                        class="feature-list"
+                    >
+
+                        Select a transaction.
+
+                    </div>
+
+                </div>
+
+
+                <div class="evidence-card negative">
+
+                    <div class="evidence-title">
+
+                        <span class="indicator negative-dot"></span>
+
+                        <strong>
+                            Reducing fraud score
+                        </strong>
+
+                    </div>
+
+
+                    <div
+                        id="negativeFeatures"
+                        class="feature-list"
+                    >
+
+                        Select a transaction.
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- LLM -->
+        <!-- ================================================= -->
+
+        <section class="panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <span class="step">
+                        03
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Evidence-Grounded Explanation
+                        </h3>
+
+                        <p>
+                            Natural-language interpretation
+                            generated from SHAP evidence
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <span class="model-tag">
+                    Qwen 2.5 3B · LOCAL
+                </span>
+
+            </div>
+
+
+            <div class="explanation">
+
+                <div class="explanation-label">
+                    VERIFRAUD EXPLANATION ENGINE
+                </div>
+
+
+                <div
+                    id="explanationText"
+                    class="explanation-text"
+                >
+
+                    Select a transaction to view
+                    the generated explanation.
+
+                </div>
+
+
+                <div class="explanation-note">
+
+                    The narrative is grounded in model
+                    evidence rather than unrestricted
+                    transaction assumptions.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================================= -->
+        <!-- VERIFICATION -->
+        <!-- ================================================= -->
+
+        <section class="panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <span class="step">
+                        04
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Faithfulness Verification
+                        </h3>
+
+                        <p>
+                            Checks whether the explanation
+                            agrees with SHAP evidence
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div
+                id="verificationBox"
+                class="verification-box"
+            >
+
+
+                <div class="verification-main">
+
+                    <span class="summary-label">
+                        VERIFICATION STATUS
+                    </span>
+
+
+                    <strong
+                        id="verificationStatus"
+                    >
+                        —
+                    </strong>
+
+
+                    <p
+                        id="verificationReason"
+                    >
+                        Select a transaction to view
+                        the verification result.
+                    </p>
+
+                </div>
+
+
+                <div class="verification-side">
+
+                    <span class="summary-label">
+                        PURPOSE
+                    </span>
+
+                    <p>
+                        Prevent unsupported claims from
+                        being presented as explanations
+                        of the ML model.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <footer>
+
+            VeriFraud · Explainable Fraud Detection Research System
+
+        </footer>
+
+
+    </main>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================================================= -->
+
+<script>
+
+
+/* ============================================================
+   ELEMENT REFERENCES
+   ============================================================ */
+
+const transactionSelect =
+    document.getElementById("transactionSelect");
+
+
+/* ============================================================
+   LOAD ALL TRANSACTIONS
+   ============================================================ */
+
+async function loadTransactions() {
+
+    try {
+
+        const response =
+            await fetch("/api/transactions");
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Unable to load transactions"
+            );
+
+        }
+
+
+        const transactions =
+            await response.json();
+
+
+        console.log(
+            "Transactions received:",
+            transactions
+        );
+
+
+        /*
+         * Update case count
+         */
+
+        const caseCount =
+            document.getElementById("caseCount");
+
+        caseCount.textContent =
+            transactions.length;
+
+
+        /*
+         * Clear dropdown
+         */
+
+        transactionSelect.innerHTML = "";
+
+
+        /*
+         * Default option
+         */
+
+        const defaultOption =
+            document.createElement("option");
+
+        defaultOption.value = "";
+
+        defaultOption.textContent =
+            "Select a transaction";
+
+        transactionSelect.appendChild(
+            defaultOption
+        );
+
+
+        /*
+         * Separate fraud and non-fraud
+         */
+
+        const fraudTransactions =
+            transactions.filter(
+                transaction =>
+                    transaction.Prediction === "FRAUD"
+            );
+
+
+        const nonFraudTransactions =
+            transactions.filter(
+                transaction =>
+                    transaction.Prediction === "NOT FRAUD"
+            );
+
+
+        /*
+         * FRAUD GROUP
+         */
+
+        const fraudGroup =
+            document.createElement("optgroup");
+
+        fraudGroup.label =
+            `FRAUD TRANSACTIONS (${fraudTransactions.length})`;
+
+
+        fraudTransactions.forEach(
+            transaction => {
+
+                const option =
+                    createTransactionOption(
+                        transaction
+                    );
+
+                fraudGroup.appendChild(option);
+
+            }
+        );
+
+
+        transactionSelect.appendChild(
+            fraudGroup
+        );
+
+
+        /*
+         * NON-FRAUD GROUP
+         */
+
+        const nonFraudGroup =
+            document.createElement("optgroup");
+
+        nonFraudGroup.label =
+            `NOT FRAUD TRANSACTIONS (${nonFraudTransactions.length})`;
+
+
+        nonFraudTransactions.forEach(
+            transaction => {
+
+                const option =
+                    createTransactionOption(
+                        transaction
+                    );
+
+                nonFraudGroup.appendChild(option);
+
+            }
+        );
+
+
+        transactionSelect.appendChild(
+            nonFraudGroup
+        );
+
+
+        console.log(
+            `Loaded ${transactions.length} transactions`
+        );
+
+
+        console.log(
+            `Fraud: ${fraudTransactions.length}`
+        );
+
+
+        console.log(
+            `Not Fraud: ${nonFraudTransactions.length}`
+        );
+
+    }
+
+    catch (error) {
+
+        console.error(
+            "Error loading transactions:",
+            error
+        );
+
+
+        transactionSelect.innerHTML = "";
+
+
+        const errorOption =
+            document.createElement("option");
+
+        errorOption.value = "";
+
+        errorOption.textContent =
+            "Unable to load transactions";
+
+        transactionSelect.appendChild(
+            errorOption
+        );
+
+    }
+
+}
+
+
+/* ============================================================
+   CREATE DROPDOWN OPTION
+   ============================================================ */
+
+function createTransactionOption(
+    transaction
+) {
+
+    const option =
+        document.createElement("option");
+
+
+    option.value =
+        transaction.TransactionID;
+
+
+    const probability =
+        Number(
+            transaction.Fraud_Probability
+        );
+
+
+    const probabilityText =
+        Number.isFinite(probability)
+            ? ` · ${(probability * 100).toFixed(1)}%`
+            : "";
+
+
+    option.textContent =
+        `${transaction.TransactionID} — ${transaction.Prediction}${probabilityText}`;
+
+
+    return option;
+
+}
+
+
+/* ============================================================
+   LOAD ONE TRANSACTION
+   ============================================================ */
+
+async function loadTransaction(
+    transactionId
+) {
+
+    if (!transactionId) {
+
+        return;
+
+    }
+
+
+    try {
+
+        const response =
+            await fetch(
+                `/api/transaction/${encodeURIComponent(transactionId)}`
+            );
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Transaction not found"
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        console.log(
+            "Transaction details:",
+            data
+        );
+
+
+        renderTransaction(data);
+
+    }
+
+    catch (error) {
+
+        console.error(
+            "Error loading transaction:",
+            error
+        );
+
+    }
+
+}
+
+
+/* ============================================================
+   RENDER TRANSACTION
+   ============================================================ */
+
+function renderTransaction(data) {
+
+
+    /*
+     * Transaction ID
+     */
+
+    const transactionId =
+        data.TransactionID ||
+        data.transaction_id ||
+        "—";
+
+
+    document.getElementById(
+        "caseId"
+    ).textContent =
+        transactionId;
+
+
+    document.getElementById(
+        "transactionId"
+    ).textContent =
+        transactionId;
+
+
+    /*
+     * Prediction
+     */
+
+    const prediction =
+        data.Prediction ||
+        data.prediction ||
+        "UNKNOWN";
+
+
+    document.getElementById(
+        "modelDecision"
+    ).textContent =
+        prediction;
+
+
+    /*
+     * Probability
+     */
+
+    let probability =
+        Number(
+            data.Fraud_Probability ||
+            data.probability ||
+            0
+        );
+
+
+    /*
+     * Make sure probability is between 0 and 1
+     */
+
+    if (probability > 1) {
+
+        probability =
+            probability / 100;
+
+    }
+
+
+    probability =
+        Math.max(
+            0,
+            Math.min(
+                probability,
+                1
+            )
+        );
+
+
+    document.getElementById(
+        "probability"
+    ).textContent =
+        `${(probability * 100).toFixed(2)}%`;
+
+
+    document.getElementById(
+        "probabilityBar"
+    ).style.width =
+        `${probability * 100}%`;
+
+
+    /*
+     * Prediction badge
+     */
+
+    const badge =
+        document.getElementById(
+            "predictionBadge"
+        );
+
+
+    badge.textContent =
+        prediction;
+
+
+    badge.className =
+        "badge " +
+        (
+            prediction === "FRAUD"
+                ? "badge-fraud"
+                : "badge-review"
+        );
+
+
+    /*
+     * SHAP
+     */
+
+    renderFeatures(
+        "positiveFeatures",
+        data.Top_Positive_Features ||
+        data.positive_features ||
+        "",
+        true
+    );
+
+
+    renderFeatures(
+        "negativeFeatures",
+        data.Top_Negative_Features ||
+        data.negative_features ||
+        "",
+        false
+    );
+
+
+    /*
+     * LLM explanation
+     */
+
+    document.getElementById(
+        "explanationText"
+    ).textContent =
+
+        data.Explanation ||
+        data.explanation ||
+        "No explanation available.";
+
+
+    /*
+     * Verification
+     */
+
+    const status =
+        data.Verification_Status ||
+        data.verification_status ||
+        "NOT VERIFIED";
+
+
+    document.getElementById(
+        "verificationStatus"
+    ).textContent =
+        status.replaceAll(
+            "_",
+            " "
+        );
+
+
+    document.getElementById(
+        "verificationReason"
+    ).textContent =
+
+        data.Verification_Reason ||
+        data.verification_reason ||
+        "No verification details available.";
+
+
+    /*
+     * Verification box styling
+     */
+
+    const verificationBox =
+        document.getElementById(
+            "verificationBox"
+        );
+
+
+    verificationBox.className =
+        "verification-box " +
+        (
+            status === "FAITHFUL"
+                ? "verification-faithful"
+                : "verification-review"
+        );
+
+}
+
+
+/* ============================================================
+   RENDER SHAP FEATURES
+   ============================================================ */
+
+function renderFeatures(
+    elementId,
+    featureString,
+    positive
+) {
+
+    const container =
+        document.getElementById(
+            elementId
+        );
+
+
+    container.innerHTML = "";
+
+
+    if (
+        !featureString ||
+        featureString === "Not available"
+    ) {
+
+        container.innerHTML = `
+            <div class="empty">
+                No SHAP features available.
+            </div>
+        `;
+
+        return;
+
+    }
+
+
+    /*
+     * The CSV stores features like:
+     *
+     * num__C5 (-0.6017);
+     * num__D3 (-0.5551);
+     * num__D4 (-0.3000)
+     *
+     * Convert them into individual rows.
+     */
+
+    const featureParts =
+        String(featureString)
+            .split(";")
+            .map(
+                item => item.trim()
+            )
+            .filter(
+                item => item.length > 0
+            );
+
+
+    featureParts.forEach(
+        feature => {
+
+
+            const row =
+                document.createElement("div");
+
+
+            row.className =
+                "feature-row";
+
+
+            /*
+             * Extract SHAP value
+             */
+
+            const match =
+                feature.match(
+                    /\(([-+]?\d*\.?\d+)\)\s*$/
+                );
+
+
+            let featureName =
+                feature;
+
+
+            let featureValue =
+                "";
+
+
+            if (match) {
+
+                featureValue =
+                    match[1];
+
+
+                featureName =
+                    feature
+                        .substring(
+                            0,
+                            match.index
+                        )
+                        .trim();
+
+            }
+
+
+            row.innerHTML = `
+
+                <span class="feature-name">
+                    ${escapeHtml(featureName)}
+                </span>
+
+                <span class="feature-value">
+                    ${escapeHtml(featureValue)}
+                </span>
+
+            `;
+
+
+            container.appendChild(
+                row
+            );
+
+        }
+    );
+
+}
+
+
+/* ============================================================
+   HTML ESCAPE
+   ============================================================ */
+
+function escapeHtml(value) {
+
+    return String(value)
+
+        .replaceAll(
+            "&",
+            "&amp;"
+        )
+
+        .replaceAll(
+            "<",
+            "&lt;"
+        )
+
+        .replaceAll(
+            ">",
+            "&gt;"
+        )
+
+        .replaceAll(
+            '"',
+            "&quot;"
+        )
+
+        .replaceAll(
+            "'",
+            "&#039;"
+        );
+
+}
+
+
+/* ============================================================
+   TRANSACTION DROPDOWN EVENT
+   ============================================================ */
+
+transactionSelect.addEventListener(
+    "change",
+    function () {
+
+        loadTransaction(
+            this.value
+        );
+
+    }
+);
+
+
+/* ============================================================
+   PAGE INITIALIZATION
+   ============================================================ */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    async function () {
+
+        await loadTransactions();
+
+    }
+);
+
+
+</script>
+
+
+</body>
+
+</html>

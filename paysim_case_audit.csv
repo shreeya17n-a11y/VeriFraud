@@ -1,0 +1,27 @@
+Timestamp,Case_ID,TransactionIndex,Event,Case_Status,Priority,Risk_Level,Details
+2026-10-21T04:29:14+00:00,VF-6252549,6252549,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6247215,6247215,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6244518,6244518,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6250382,6250382,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6259969,6259969,CASE_REFRESHED,OPEN,P1-CRITICAL,HIGH,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6260692,6260692,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6268655,6268655,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6277248,6277248,CASE_REFRESHED,OPEN,P1-CRITICAL,HIGH,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6280007,6280007,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6279635,6279635,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6294045,6294045,CASE_REFRESHED,OPEN,P1-CRITICAL,HIGH,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6300614,6300614,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6305708,6305708,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6305488,6305488,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6309554,6309554,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6311651,6311651,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6321763,6321763,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6343177,6343177,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6340159,6340159,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6354342,6354342,CASE_REFRESHED,OPEN,P1-CRITICAL,HIGH,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6354039,6354039,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6355303,6355303,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6354638,6354638,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6358044,6358044,CASE_REFRESHED,OPEN,P2-HIGH,ELEVATED,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6362392,6362392,CASE_REFRESHED,OPEN,P1-CRITICAL,HIGH,Case generated/refreshed from latest investigation results. No banking action was executed.
+2026-10-21T04:29:14+00:00,VF-6362590,6362590,CASE_REFRESHED,OPEN,P1-CRITICAL,HIGH,Case generated/refreshed from latest investigation results. No banking action was executed.

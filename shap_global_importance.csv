@@ -1,0 +1,2253 @@
+feature,mean_abs_shap
+num__C5,0.44429818
+num__TransactionAmt,0.24893788
+num__C1,0.23727788
+num__D3,0.19895379
+num__C4,0.1861008
+cat__card6_credit,0.1658967
+num__C2,0.14996171
+num__D4,0.14827494
+num__C6,0.13005698
+num__D1,0.12697314
+num__D2,0.121182345
+num__card1,0.114491425
+num__card3,0.11232665
+cat__M5_F,0.10651845
+num__id_17,0.102721326
+num__card2,0.10178635
+cat__M6_F,0.095087446
+num__D5,0.07966106
+num__TransactionDay,0.07934765
+cat__P_emaildomain_gmail.com,0.077207945
+num__card5,0.07224034
+num__TransactionDT,0.0693295
+cat__ProductCD_R,0.060316794
+num__TransactionAmt_log,0.055727474
+num__TransactionHour,0.053429186
+num__addr1,0.04837956
+cat__M3_F,0.040570717
+num__id_05,0.039712235
+num__dist1,0.039537873
+num__id_01,0.036653645
+cat__card6_debit,0.029806493
+num__id_20,0.025157109
+cat__P_emaildomain_anonymous.com,0.024105161
+cat__card4_mastercard,0.022609765
+cat__ProductCD_H,0.020909172
+cat__R_emaildomain_gmail.com,0.020618256
+cat__R_emaildomain_anonymous.com,0.01893382
+cat__M6_T,0.018666677
+cat__M4_M1,0.018456295
+cat__DeviceInfo_MacOS,0.017281983
+cat__DeviceInfo_Trident/7.0,0.01680975
+num__id_02,0.016457252
+cat__M5_T,0.016412036
+num__D6,0.01621781
+cat__DeviceType_desktop,0.015136647
+cat__ProductCD_W,0.014828046
+cat__M8_F,0.01461047
+num__DeviceType_missing,0.012649012
+num__id_19,0.011804496
+num__id_14,0.011662245
+num__R_emaildomain_missing,0.010770518
+cat__P_emaildomain_aol.com,0.00975631
+num__dist2,0.009319321
+cat__P_emaildomain_hotmail.com,0.00922442
+cat__M2_F,0.00893657
+cat__id_33_1920x1080,0.008382397
+num__id_06,0.008220684
+cat__id_31_ie 11.0 for desktop,0.008073542
+cat__P_emaildomain_att.net,0.008056686
+num__C3,0.0079780705
+cat__card4_discover,0.007837903
+cat__P_emaildomain_yahoo.com,0.00713808
+cat__M4_M2,0.006924231
+cat__M3_T,0.006477319
+cat__P_emaildomain_yahoo.com.mx,0.0061108354
+cat__P_emaildomain_verizon.net,0.005785252
+cat__M4_M0,0.005527327
+cat__M9_F,0.0052181226
+cat__DeviceInfo_hi6210sft Build/MRA58K,0.0050691264
+num__DeviceInfo_missing,0.0049936282
+cat__id_31_safari generic,0.004637968
+num__P_emaildomain_missing,0.0045494
+cat__ProductCD_C,0.004462219
+cat__DeviceType_mobile,0.004346343
+cat__id_31_chrome 63.0,0.0040251873
+cat__M8_T,0.0038985563
+cat__P_emaildomain_sbcglobal.net,0.0038305924
+cat__R_emaildomain_hotmail.com,0.0037495259
+cat__card4_visa,0.0030833986
+cat__P_emaildomain_mail.com,0.002888248
+cat__id_12_Found,0.0028118705
+cat__P_emaildomain_outlook.com,0.0027847239
+cat__id_33_1366x768,0.0026940403
+cat__id_33_2048x1536,0.0023754672
+cat__P_emaildomain_comcast.net,0.0023656797
+cat__DeviceInfo_Windows,0.0021857298
+num__id_13,0.002132373
+cat__id_33_2208x1242,0.002099562
+cat__R_emaildomain_icloud.com,0.0020458514
+cat__id_31_firefox,0.0020354518
+cat__P_emaildomain_optonline.net,0.0016698994
+cat__M7_F,0.00164659
+cat__P_emaildomain_ymail.com,0.0016363672
+cat__id_33_2560x1440,0.0016339456
+cat__R_emaildomain_outlook.com,0.0015495635
+cat__id_33_1280x720,0.0013165303
+cat__P_emaildomain_live.com,0.0012151571
+cat__id_31_chrome generic,0.0011666206
+cat__id_33_1600x900,0.0011376757
+cat__M2_T,0.0011346065
+cat__id_12_NotFound,0.0011189608
+num__id_32,0.0010368433
+cat__P_emaildomain_embarqmail.com,0.0010105066
+cat__R_emaildomain_comcast.net,0.0009760091
+cat__R_emaildomain_protonmail.com,0.0009015054
+cat__M9_T,0.0008696859
+cat__P_emaildomain_msn.com,0.0008318555
+cat__R_emaildomain_yahoo.com,0.000784547
+cat__id_16_Found,0.0007469599
+cat__id_31_edge 16.0,0.0007298287
+cat__R_emaildomain_msn.com,0.0007089876
+cat__id_15_New,0.00064721034
+cat__id_15_Found,0.000610424
+cat__P_emaildomain_rocketmail.com,0.0005701874
+cat__P_emaildomain_me.com,0.0005352727
+cat__P_emaildomain_icloud.com,0.00053427176
+cat__R_emaildomain_mail.com,0.00048887497
+cat__card4_american express,0.00048361573
+cat__id_31_chrome 66.0,0.00046812597
+cat__id_33_1680x1050,0.00044732643
+cat__ProductCD_S,0.0004274306
+cat__id_33_3840x2160,0.00041065045
+cat__id_31_chrome 52.0 for android,0.00036774794
+cat__DeviceInfo_SM-A300H Build/LRX22G,0.00033677646
+cat__id_31_opera,0.00033087487
+cat__P_emaildomain_bellsouth.net,0.0003148967
+cat__id_16_NotFound,0.0003124992
+cat__id_31_chrome 58.0,0.0003090784
+cat__M7_T,0.000300254
+cat__id_31_mobile safari generic,0.00029266108
+cat__R_emaildomain_yahoo.com.mx,0.00029118182
+cat__DeviceInfo_SM-J701M Build/NRD90M,0.00026513284
+cat__id_31_chrome 62.0,0.00025167174
+cat__DeviceInfo_CRO-L03 Build/HUAWEICRO-L03,0.0002508692
+cat__id_33_855x480,0.0002453992
+num__addr2,0.00021582346
+cat__id_31_firefox 57.0,0.00021207785
+cat__id_31_chrome 64.0,0.00020279306
+cat__R_emaildomain_charter.net,0.00019145261
+cat__id_31_chrome 63.0 for android,0.00017941406
+cat__id_33_1360x768,0.00017459606
+cat__P_emaildomain_twc.com,0.00017107143
+cat__id_34_match_status:2,0.00016812995
+cat__id_31_chrome 65.0,0.00016774725
+cat__DeviceInfo_SM-G532M Build/MMB29T,0.00016123381
+cat__id_33_2560x1600,0.0001608143
+cat__R_emaildomain_verizon.net,0.00015189365
+cat__P_emaildomain_charter.net,0.00014903572
+cat__id_33_1920x975,0.0001402921
+cat__P_emaildomain_protonmail.com,0.0001392228
+cat__id_33_5120x2880,0.00013822362
+cat__DeviceInfo_rv:59.0,0.00013756705
+cat__id_31_firefox 59.0,0.00013495093
+cat__P_emaildomain_aim.com,0.00013422468
+cat__id_33_2880x1800,0.00013389367
+cat__DeviceInfo_Lenovo YT3-850M Build/MMB29M,0.0001163087
+cat__id_15_Unknown,0.00011363301
+cat__DeviceInfo_WAS-LX3 Build/HUAWEIWAS-LX3,0.00011086647
+cat__R_emaildomain_cox.net,0.00010391762
+cat__DeviceInfo_rv:11.0,0.000101879166
+cat__id_31_mobile safari 11.0,0.00010124238
+cat__R_emaildomain_live.com,9.476494e-05
+cat__id_31_comodo,9.473409e-05
+cat__id_33_1440x900,9.448247e-05
+cat__id_33_801x480,9.3894894e-05
+cat__id_34_match_status:1,9.253281e-05
+cat__DeviceInfo_LG-K220 Build/MXB48T,9.105295e-05
+cat__id_31_chrome 66.0 for android,8.708867e-05
+cat__id_33_1024x768,8.659392e-05
+cat__DeviceInfo_SM-A300M Build/KTU84P,8.6482105e-05
+cat__DeviceInfo_SAMSUNG SM-T580 Build/NRD90M,8.5187115e-05
+cat__DeviceInfo_SM-J327T1 Build/NRD90M,8.344894e-05
+cat__DeviceInfo_LG-D693n Build/LRX22G,8.200835e-05
+cat__P_emaildomain_earthlink.net,8.1973936e-05
+cat__DeviceInfo_Moto X Play Build/NPD26.48-24-1,8.16101e-05
+cat__id_34_match_status:0,7.982815e-05
+cat__id_33_2160x1440,7.7099765e-05
+cat__P_emaildomain_prodigy.net.mx,7.471748e-05
+cat__id_31_mobile safari 9.0,6.4152264e-05
+cat__DeviceInfo_SM-G610M Build/MMB29K,6.39746e-05
+cat__id_31_samsung browser 6.4,6.272205e-05
+cat__DeviceInfo_PRA-LX3 Build/HUAWEIPRA-LX3,6.156343e-05
+cat__DeviceInfo_5056A Build/MMB29M,6.017359e-05
+num__card4_missing,5.9328766e-05
+cat__DeviceInfo_VS995 Build/NRD90M,5.8623973e-05
+cat__id_31_edge 15.0,5.861922e-05
+cat__P_emaildomain_gmail,5.715754e-05
+cat__DeviceInfo_rv:52.0,5.4640914e-05
+cat__id_33_2076x1080,5.1272717e-05
+cat__P_emaildomain_hotmail.es,4.92828e-05
+cat__R_emaildomain_hotmail.es,4.6907193e-05
+cat__DeviceInfo_SM-J730GM Build/NRD90M,4.6211586e-05
+cat__id_33_1024x600,4.437529e-05
+cat__id_33_1334x750,4.255545e-05
+cat__DeviceInfo_SAMSUNG SM-J700M Build/MMB29K,4.1087733e-05
+cat__R_emaildomain_earthlink.net,4.1068903e-05
+cat__id_31_chrome 65.0 for android,4.0696083e-05
+cat__DeviceInfo_HTC One M9 Build/NRD90M,3.972232e-05
+cat__R_emaildomain_me.com,3.9299775e-05
+cat__DeviceInfo_SAMSUNG-SM-G530AZ Build/LMY48B,3.748143e-05
+cat__DeviceInfo_SM-J510MN Build/MMB29M,3.654993e-05
+cat__DeviceInfo_5049W Build/NRD90M,3.5265377e-05
+cat__id_31_chrome 62.0 for android,3.3638607e-05
+cat__id_33_1920x1200,3.3198587e-05
+cat__id_31_ie,3.224817e-05
+cat__id_31_firefox 58.0,3.2047312e-05
+cat__id_33_2732x2048,3.1078016e-05
+cat__id_31_chrome 61.0,3.067352e-05
+cat__id_31_ie 11.0 for tablet,2.790705e-05
+cat__DeviceInfo_Moto G (5) Plus Build/NPN25.137-92,2.7169272e-05
+cat__id_33_640x360,2.7040885e-05
+cat__R_emaildomain_sbcglobal.net,2.6985086e-05
+cat__DeviceInfo_Blade V6 Build/LRX22G,2.6940943e-05
+cat__id_33_1280x800,2.6666936e-05
+cat__id_31_Samsung/SM-G531H,2.5043566e-05
+cat__DeviceInfo_SM-G935F Build/NRD90M,2.4318031e-05
+cat__R_emaildomain_aim.com,2.3748136e-05
+num__card6_missing,2.329084e-05
+cat__id_33_2436x1125,2.3254235e-05
+cat__DeviceInfo_rv:58.0,2.2677634e-05
+cat__DeviceInfo_Moto G (4) Build/NPJ25.93-14.7,2.2586486e-05
+cat__id_31_android webview 4.0,2.2021513e-05
+cat__id_33_3360x2100,2.1822918e-05
+cat__id_31_chrome 49.0,2.0949343e-05
+cat__DeviceInfo_Moto G (5) Plus Build/NPN25.137-82,2.0882095e-05
+cat__id_31_chrome 50.0 for android,2.0760654e-05
+cat__DeviceInfo_Moto Z2 Play Build/NPS26.74-16-1,2.0652727e-05
+cat__DeviceInfo_SM-G950F Build/NRD90M,2.0564215e-05
+cat__DeviceInfo_iOS Device,1.9933794e-05
+cat__id_31_chrome 64.0 for android,1.9012714e-05
+cat__DeviceInfo_rv:57.0,1.890522e-05
+cat__id_31_firefox 55.0,1.8481518e-05
+cat__DeviceInfo_H1711 Build/HUAWEIH1711,1.7613891e-05
+cat__P_emaildomain_cox.net,1.7109794e-05
+cat__DeviceInfo_SM-G570M Build/MMB29K,1.702433e-05
+cat__DeviceInfo_HTC Desire 10 lifestyle Build/MMB29M,1.6834081e-05
+cat__R_emaildomain_outlook.es,1.557734e-05
+cat__DeviceInfo_Hisense L675 Build/MRA58K,1.50626365e-05
+cat__DeviceInfo_Blade A510 Build/MRA58K,1.4941956e-05
+cat__DeviceInfo_SM-G550T1 Build/MMB29K,1.441025e-05
+cat__DeviceInfo_SM-A510M Build/LMY47X,1.4201596e-05
+cat__id_31_firefox 48.0,1.414361e-05
+cat__DeviceInfo_5015A Build/LMY47I,1.33830645e-05
+cat__P_emaildomain_frontiernet.net,1.3338026e-05
+cat__P_emaildomain_cableone.net,1.2769879e-05
+cat__id_31_edge 17.0,1.2647527e-05
+cat__DeviceInfo_LG-H542 Build/MRA58K,1.2564788e-05
+cat__DeviceInfo_ALP-L09 Build/HUAWEIALP-L09,1.2380137e-05
+cat__DeviceInfo_TAB7,1.2154589e-05
+cat__DeviceInfo_SAMSUNG SM-G550T1 Build/MMB29K,1.1733155e-05
+cat__DeviceInfo_CHC-U03 Build/HuaweiCHC-U03,1.1675475e-05
+cat__id_31_samsung browser 6.2,1.137613e-05
+cat__id_31_edge 14.0,1.1249562e-05
+cat__DeviceInfo_rv:29.0,1.0212298e-05
+cat__DeviceInfo_VS5012 Build/NRD90M,1.0113556e-05
+cat__DeviceInfo_MDDRJS,9.779215e-06
+cat__DeviceInfo_SM-G955U Build/NRD90M,9.030513e-06
+cat__id_33_960x540,8.507943e-06
+cat__DeviceInfo_Y635-L03 Build/HuaweiY635-L03,8.4525e-06
+cat__DeviceInfo_MotoG3-TE Build/MPDS24.65-33-1-3,8.420297e-06
+cat__DeviceInfo_TRT-L53 Build/HUAWEITRT-L53,8.292577e-06
+cat__DeviceInfo_NX785QC8G,8.005855e-06
+cat__id_31_mobile safari uiwebview,7.848111e-06
+cat__DeviceInfo_SM-A710M Build/NRD90M,6.87628e-06
+cat__DeviceInfo_Moto Z2 Play Build/NPSS26.118-19-14,6.820949e-06
+cat__id_31_opera 53.0,6.747619e-06
+cat__R_emaildomain_live.com.mx,6.1045525e-06
+cat__R_emaildomain_aol.com,5.9045565e-06
+cat__id_33_2224x1668,5.784113e-06
+cat__id_31_chrome 61.0 for android,5.670693e-06
+cat__DeviceInfo_Ilium LT510 Build/MRA58K,4.912549e-06
+cat__DeviceInfo_XT1635-02 Build/NPN26.118-22-2,4.8341144e-06
+cat__DeviceInfo_SAMSUNG SM-G955U Build/NRD90M,4.5177717e-06
+cat__DeviceInfo_Blade L3 Build/KOT49H,4.102658e-06
+cat__DeviceInfo_SAMSUNG SM-G925T Build/NRD90M,4.0390637e-06
+cat__DeviceInfo_REX,3.600311e-06
+cat__DeviceInfo_rv:45.0,3.1623617e-06
+cat__DeviceInfo_RNE-L03 Build/HUAWEIRNE-L03,3.1619302e-06
+cat__id_31_other,3.0362567e-06
+cat__DeviceInfo_LG-H320 Build/LRX21Y,2.827781e-06
+cat__id_33_1280x1024,2.7414349e-06
+cat__DeviceInfo_SM-G955F Build/NRD90M,2.3595435e-06
+cat__id_31_safari 9.0,2.3283656e-06
+cat__id_31_chrome generic for android,1.947437e-06
+cat__id_31_chrome 65.0 for ios,1.9415033e-06
+cat__id_33_1364x768,1.9415031e-06
+cat__DeviceInfo_Z813 Build/LMY47O,1.9353408e-06
+cat__id_31_android browser 4.0,1.9347954e-06
+cat__DeviceInfo_Redmi Note 4 Build/NRD90M,1.8562299e-06
+cat__DeviceInfo_F5121 Build/34.3.A.0.228,1.7752493e-06
+cat__DeviceInfo_SAMSUNG SM-G610M Build/MMB29K,1.7018485e-06
+cat__DeviceInfo_HUAWEI VNS-L23 Build/HUAWEIVNS-L23,4.3230693e-07
+cat__DeviceInfo_SAMSUNG-SM-G890A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-G891A Build/NRD90M,0.0
+cat__DeviceInfo_SM-G350M,0.0
+cat__DeviceInfo_SM-G318ML,0.0
+cat__DeviceInfo_SAMSUNG SM-N950U Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG-SM-G900A,0.0
+cat__DeviceInfo_SAMSUNG SM-S727VL Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG-SM-G900A Build/KOT49H,0.0
+cat__DeviceInfo_SAMSUNG-SM-G900A Build/LMY47X,0.0
+cat__DeviceInfo_SAMSUNG-SM-G890A Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-N920P Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-N950U1 Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG SM-P580 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-N950U1 Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-N920T Build/NRD90M,0.0
+cat__DeviceInfo_SM-G610F,0.0
+cat__DeviceInfo_SAMSUNG SM-N920V Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-N950F Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG SM-N950U Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG-SM-G900A Build/LRX21T,0.0
+cat__DeviceInfo_SAMSUNG SM-J320M Build/LMY47V,0.0
+cat__DeviceInfo_SAMSUNG SM-J327A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J327P Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-J327T Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J327T1 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J500FN Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-J500M Build/LMY48B,0.0
+cat__DeviceInfo_SM-G850M Build/LRX22G,0.0
+cat__DeviceInfo_SAMSUNG SM-J500M Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-J510MN Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-G935T Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G935W8 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G950F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G950F Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-J710MN Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G950U Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G950U1 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G950U1 Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G955F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G955F Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G955U Build/R16NW,0.0
+cat__DeviceInfo_SM-G531F,0.0
+cat__DeviceInfo_SM-G550T Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-G9600 Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G960U Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G9650 Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G965F Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G925F Build/NRD90M,0.0
+cat__DeviceInfo_SM-G531H Build/LMY48B,0.0
+cat__DeviceInfo_SAMSUNG SM-G950U Build/NRD90M,0.0
+cat__DeviceInfo_SM-G570M Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-T530NU Build/LRX22G,0.0
+cat__DeviceInfo_SAMSUNG SM-T550 Build/NMF26X,0.0
+cat__DeviceInfo_SM-G570F,0.0
+cat__DeviceInfo_SAMSUNG SM-T587P Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-T710 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-T810 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J530F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J530GM Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J700M Build/LMY48B,0.0
+cat__DeviceInfo_SAMSUNG SM-J700T Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG SM-J700T1 Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG SM-J701M Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J710MN Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-J320FN Build/LMY47V,0.0
+cat__DeviceInfo_SAMSUNG SM-J727T1 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-J730GM Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-N900T Build/LRX21V,0.0
+cat__DeviceInfo_SM-G550T2,0.0
+cat__DeviceInfo_SAMSUNG SM-N900W8 Build/LRX21V,0.0
+cat__DeviceInfo_SAMSUNG SM-N910A Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-N910V Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-N920A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G965U Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G965U1 Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-J111M Build/LMY47V,0.0
+cat__DeviceInfo_SAMSUNG SM-J120H Build/LMY47V,0.0
+cat__DeviceInfo_SAMSUNG SM-J250M Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG SM-J320F Build/LMY47V,0.0
+cat__DeviceInfo_SAMSUNG-SM-G890A,0.0
+cat__DeviceInfo_SM-A520F Build/NRD90M,0.0
+cat__DeviceInfo_SM-A520W,0.0
+cat__DeviceInfo_SH-04F,0.0
+cat__DeviceInfo_SKY_5.0LM,0.0
+cat__DeviceInfo_SLA-L02,0.0
+cat__DeviceInfo_SLA-L03 Build/HUAWEISLA-L03,0.0
+cat__DeviceInfo_SLA-L22,0.0
+cat__DeviceInfo_SLA-L23,0.0
+cat__DeviceInfo_SM-A520F Build/R16NW,0.0
+cat__DeviceInfo_SLAY,0.0
+cat__DeviceInfo_SM-A300FU Build/MMB29M,0.0
+cat__DeviceInfo_SM-G530H Build/KTU84P,0.0
+cat__DeviceInfo_SM-A300H,0.0
+cat__DeviceInfo_SM-G530FZ,0.0
+cat__DeviceInfo_SAMSUNG-SM-G920A Build/MMB29K,0.0
+cat__DeviceInfo_SM-G390F,0.0
+cat__DeviceInfo_SM-A310F Build/MMB29K,0.0
+cat__DeviceInfo_SM-A310F Build/NRD90M,0.0
+cat__DeviceInfo_SM-A310M,0.0
+cat__DeviceInfo_SM-G388F,0.0
+cat__DeviceInfo_SM-G530T1,0.0
+cat__DeviceInfo_SM-G386W,0.0
+cat__DeviceInfo_SM-A310M Build/LMY47X,0.0
+cat__DeviceInfo_SM-A310M Build/NRD90M,0.0
+cat__DeviceInfo_SM-G386T,0.0
+cat__DeviceInfo_SM-G530H Build/LRX22G,0.0
+cat__DeviceInfo_SM-G361F,0.0
+cat__DeviceInfo_SAMSUNG-SM-T817A,0.0
+cat__DeviceInfo_SC-02H,0.0
+cat__DeviceInfo_SM-G390W,0.0
+cat__DeviceInfo_SM-G530T,0.0
+cat__DeviceInfo_SM-A800I,0.0
+cat__DeviceInfo_SM-C900F,0.0
+cat__DeviceInfo_SM-E500M,0.0
+cat__DeviceInfo_SM-E500M Build/KTU84P,0.0
+cat__DeviceInfo_SM-E700M,0.0
+cat__DeviceInfo_SM-A730F Build/NMF26X,0.0
+cat__DeviceInfo_SM-G313ML,0.0
+cat__DeviceInfo_SM-G530P,0.0
+cat__DeviceInfo_SM-A720F Build/NRD90M,0.0
+cat__DeviceInfo_SM-A720F Build/MMB29K,0.0
+cat__DeviceInfo_SM-G530M,0.0
+cat__DeviceInfo_SM-A320FL Build/MMB29K,0.0
+cat__DeviceInfo_SM-A710M Build/LMY47X,0.0
+cat__DeviceInfo_SM-A520F Build/MMB29K,0.0
+cat__DeviceInfo_SM-A320Y,0.0
+cat__DeviceInfo_SM-A320Y Build/NRD90M,0.0
+cat__DeviceInfo_SM-A500FU Build/MMB29M,0.0
+cat__DeviceInfo_SM-A500H,0.0
+cat__DeviceInfo_SM-A500M Build/KTU84P,0.0
+cat__DeviceInfo_SM-A500M Build/LRX22G,0.0
+cat__DeviceInfo_SM-A500W,0.0
+cat__DeviceInfo_SM-A510F Build/MMB29K,0.0
+cat__DeviceInfo_SM-A510F Build/NRD90M,0.0
+cat__DeviceInfo_SM-A510M Build/MMB29K,0.0
+cat__DeviceInfo_SM-A710M,0.0
+cat__DeviceInfo_SM-A530F Build/NMF26X,0.0
+cat__DeviceInfo_SM-A520W Build/NRD90M,0.0
+cat__DeviceInfo_SM-A510M Build/NRD90M,0.0
+cat__DeviceInfo_SM-A320FL Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-T337A Build/LMY47X,0.0
+cat__DeviceInfo_SAMSUNG-SM-T377A,0.0
+cat__DeviceInfo_SAMSUNG-SM-T377A Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG-SM-T537A,0.0
+cat__DeviceInfo_SAMSUNG-SM-T677A,0.0
+cat__DeviceInfo_SAMSUNG-SM-T807A,0.0
+cat__DeviceInfo_SAMSUNG-SM-G900A Build/MMB29M,0.0
+cat__DeviceInfo_SM-G355M Build/KOT49H,0.0
+cat__DeviceInfo_SAMSUNG-SM-G920A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-G920AZ,0.0
+cat__DeviceInfo_SAMSUNG-SM-G925A,0.0
+cat__DeviceInfo_SAMSUNG-SM-G925A Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG-SM-G925A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-G928A Build/NRD90M,0.0
+cat__DeviceInfo_SM-G900F Build/LRX21T,0.0
+cat__DeviceInfo_SAMSUNG-SM-G930A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-G930AZ,0.0
+cat__DeviceInfo_SAMSUNG-SM-G935A,0.0
+cat__DeviceInfo_SAMSUNG-SM-G935A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-J120A,0.0
+cat__DeviceInfo_SAMSUNG-SM-J320A Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG-SM-J320A Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG SM-T813 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SGH-I337,0.0
+cat__DeviceInfo_SAMSUNG-SGH-I337 Build/KOT49H,0.0
+cat__DeviceInfo_SAMSUNG-SGH-I497,0.0
+cat__DeviceInfo_SAMSUNG-SGH-I537,0.0
+cat__DeviceInfo_SAMSUNG-SM-G870A,0.0
+cat__DeviceInfo_SAMSUNG-SM-G870A Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG-SM-G930A,0.0
+cat__DeviceInfo_SM-G900F Build/KOT49H,0.0
+cat__DeviceInfo_SCH-I435,0.0
+cat__DeviceInfo_SCH-I535,0.0
+cat__DeviceInfo_SCH-I545 Build/LRX22C,0.0
+cat__DeviceInfo_SENS,0.0
+cat__DeviceInfo_SGH-I317M,0.0
+cat__DeviceInfo_SGH-I337M,0.0
+cat__DeviceInfo_SGH-I337M Build/LRX22C,0.0
+cat__DeviceInfo_SGH-I747M,0.0
+cat__DeviceInfo_SM-G360V Build/LMY48B,0.0
+cat__DeviceInfo_SM-G360V,0.0
+cat__DeviceInfo_SGH-M919 Build/KTU84P,0.0
+cat__DeviceInfo_SM-G530W,0.0
+cat__DeviceInfo_SGH-M919V,0.0
+cat__DeviceInfo_SAMSUNG-SM-N920A Build/NRD90M,0.0
+cat__DeviceInfo_SM-G360T1 Build/LMY47X,0.0
+cat__DeviceInfo_SGP521,0.0
+cat__DeviceInfo_SGP611,0.0
+cat__DeviceInfo_SM-G360M,0.0
+cat__DeviceInfo_SGP621 Build/23.5.A.1.291,0.0
+cat__DeviceInfo_SM-G360F,0.0
+cat__DeviceInfo_SAMSUNG-SM-J320AZ,0.0
+cat__DeviceInfo_SAMSUNG-SM-J320AZ Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG-SM-J327A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-J327AZ,0.0
+cat__DeviceInfo_SAMSUNG-SM-J727A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG-SM-J727AZ,0.0
+cat__DeviceInfo_SAMSUNG-SM-N900A,0.0
+cat__DeviceInfo_SAMSUNG-SM-N900A Build/LRX21V,0.0
+cat__DeviceInfo_SAMSUNG-SM-N910A,0.0
+cat__DeviceInfo_SGP511,0.0
+cat__DeviceInfo_N817,0.0
+cat__DeviceInfo_N9136,0.0
+cat__DeviceInfo_N9560 Build/NMF26F,0.0
+cat__DeviceInfo_NEM-L51 Build/HONORNEM-L51,0.0
+cat__DeviceInfo_NOKIA,0.0
+cat__DeviceInfo_NX521J,0.0
+cat__DeviceInfo_NXA8QC116,0.0
+cat__DeviceInfo_NYX_A1,0.0
+cat__DeviceInfo_Neffos C5 Build/LMY47D,0.0
+cat__DeviceInfo_Moto G Play Build/NPIS26.48-36-5,0.0
+cat__DeviceInfo_Moto Z (2,0.0
+cat__DeviceInfo_Moto Z2 Play Build/NPS26.118-19,0.0
+cat__DeviceInfo_Moto Z2 Play Build/NPSS26.118-19-11,0.0
+cat__DeviceInfo_Moto Z2 Play Build/NPSS26.118-19-4,0.0
+cat__DeviceInfo_SM-G892A,0.0
+cat__DeviceInfo_MotoE2 Build/LPCS23.13-56-5,0.0
+cat__DeviceInfo_MotoE2(4G-LTE,0.0
+cat__DeviceInfo_MotoG3,0.0
+cat__DeviceInfo_MotoG3 Build/MPI24.65-25,0.0
+cat__DeviceInfo_MotoG3 Build/MPI24.65-25.1,0.0
+cat__DeviceInfo_MotoG3 Build/MPI24.65-33.1-2,0.0
+cat__DeviceInfo_MotoG3 Build/MPIS24.107-55-2-17,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPN25.137-15,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPN25.137-72,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPN25.137-83,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPNS25.137-15-11,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPNS25.137-92-10,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPNS25.137-92-4,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPNS25.137-92-8,0.0
+cat__DeviceInfo_Moto G (5) Plus Build/NPNS25.137-93-8,0.0
+cat__DeviceInfo_Moto Z2 Play Build/NPSS26.118-19-6,0.0
+cat__DeviceInfo_P00C,0.0
+cat__DeviceInfo_P027,0.0
+cat__DeviceInfo_P4526A Build/NRD90M,0.0
+cat__DeviceInfo_P5006A,0.0
+cat__DeviceInfo_P5006A Build/NRD90M,0.0
+cat__DeviceInfo_P5026A,0.0
+cat__DeviceInfo_P5046A,0.0
+cat__DeviceInfo_P5526A Build/NRD90M,0.0
+cat__DeviceInfo_PE-TL10,0.0
+cat__DeviceInfo_PH-1,0.0
+cat__DeviceInfo_Neffos X1 Max Build/NRD90M,0.0
+cat__DeviceInfo_Nexus,0.0
+cat__DeviceInfo_Nexus 5 Build/M4B30Z,0.0
+cat__DeviceInfo_Nexus 5X Build/OPM3.171019.013,0.0
+cat__DeviceInfo_MotoG3-TE Build/MPDS24.65-33-1-30,0.0
+cat__DeviceInfo_Nexus 6 Build/MOB30M,0.0
+cat__DeviceInfo_Nexus 6 Build/N6F27M,0.0
+cat__DeviceInfo_Nexus 6P Build/OPR5.170623.011,0.0
+cat__DeviceInfo_Nexus 6P Build/OPR5.170623.014,0.0
+cat__DeviceInfo_O1,0.0
+cat__DeviceInfo_ONE,0.0
+cat__DeviceInfo_ONE A2003 Build/MMB29M,0.0
+cat__DeviceInfo_ONE A2005 Build/MMB29M,0.0
+cat__DeviceInfo_ONE TOUCH 4016A Build/JDQ39,0.0
+cat__DeviceInfo_ONE TOUCH 4033A Build/JDQ39,0.0
+cat__DeviceInfo_ONEPLUS,0.0
+cat__DeviceInfo_MotoG3 Build/MPIS24.65-25.1-19,0.0
+cat__DeviceInfo_MotoG3 Build/MPIS24.65-33.1-2-16,0.0
+cat__DeviceInfo_MotoG3-TE,0.0
+cat__DeviceInfo_MotoG3-TE Build/MPD24.65-33,0.0
+cat__DeviceInfo_Nexus 5X Build/OPR4.170623.006,0.0
+cat__DeviceInfo_Moto E (4) Plus Build/NMA26.42-152,0.0
+cat__DeviceInfo_Moto E (4) Plus Build/NMA26.42-69,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJ25.93-14,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJ25.93-14.5,0.0
+num__ProductCD_missing,0.0
+cat__DeviceInfo_MYA-L23,0.0
+cat__DeviceInfo_Mi,0.0
+cat__DeviceInfo_Mi A1 Build/N2G47H,0.0
+cat__DeviceInfo_Mi A1 Build/OPR1.170623.026,0.0
+cat__DeviceInfo_Microsoft,0.0
+cat__DeviceInfo_Minion_Tab,0.0
+cat__DeviceInfo_Mobiistar_LAI_Yuna_X,0.0
+cat__DeviceInfo_Moto,0.0
+cat__DeviceInfo_Moto C Build/NRD90M.046,0.0
+cat__DeviceInfo_Moto G (5S,0.0
+cat__DeviceInfo_Moto C Build/NRD90M.057,0.0
+cat__DeviceInfo_M4 SS4458 Build/MMB29M,0.0
+cat__DeviceInfo_M431,0.0
+cat__DeviceInfo_MAGNO,0.0
+cat__DeviceInfo_MALC,0.0
+cat__DeviceInfo_ME173X,0.0
+cat__DeviceInfo_ME301T,0.0
+cat__DeviceInfo_MHA-L09 Build/HUAWEIMHA-L09,0.0
+cat__DeviceInfo_MHA-L29 Build/HUAWEIMHA-L29,0.0
+cat__DeviceInfo_MI,0.0
+cat__DeviceInfo_MI MAX 2 Build/NMF26F,0.0
+cat__DeviceInfo_MOT-A6020l37 Build/LMY47V,0.0
+cat__DeviceInfo_MTT,0.0
+cat__DeviceInfo_MYA-L03 Build/HUAWEIMYA-L03,0.0
+cat__DeviceInfo_MYA-L11,0.0
+cat__DeviceInfo_Moto C Build/NRD90M.054,0.0
+cat__DeviceInfo_Moto G Play Build/MPIS24.241-15.3-26,0.0
+cat__DeviceInfo_Moto G Play Build/MPIS24.241-15.3-7,0.0
+cat__DeviceInfo_Moto G Play Build/NJH47F,0.0
+cat__DeviceInfo_Moto G Play Build/NPI26.48-36,0.0
+cat__DeviceInfo_Moto G Play Build/NPIS26.48-36-2,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJS25.93-14-10,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJS25.93-14-13,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJS25.93-14-15,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJS25.93-14-18,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJS25.93-14-8,0.0
+cat__DeviceInfo_Moto G (4) Build/NPJS25.93-14-8.1-4,0.0
+cat__DeviceInfo_Moto G (5) Build/NPP25.137-15,0.0
+cat__DeviceInfo_Moto G (5) Build/NPP25.137-33,0.0
+cat__DeviceInfo_Moto G (5) Build/NPP25.137-38,0.0
+cat__DeviceInfo_Moto G (5) Build/NPP25.137-72,0.0
+cat__DeviceInfo_Moto E (4) Plus Build/NMA26.42-142,0.0
+cat__DeviceInfo_Moto G (5) Build/NPP25.137-93,0.0
+cat__DeviceInfo_Moto G (5) Build/NPPS25.137-15-11,0.0
+cat__DeviceInfo_Moto G (5) Build/NPPS25.137-93-4,0.0
+cat__DeviceInfo_Moto G (5) Build/NPPS25.137-93-8,0.0
+cat__DeviceInfo_Moto C Build/NRD90M.063,0.0
+cat__DeviceInfo_Moto C Build/NRD90M.070,0.0
+cat__DeviceInfo_Moto C Plus Build/NRD90M.05.022,0.0
+cat__DeviceInfo_Moto C Plus Build/NRD90M.05.034,0.0
+cat__DeviceInfo_Moto E (4) Build/NCQ26.69-56,0.0
+cat__DeviceInfo_Moto E (4) Build/NDQS26.69-23-2-3,0.0
+cat__DeviceInfo_Moto E (4) Build/NDQS26.69-64-2,0.0
+cat__DeviceInfo_Moto E (4) Build/NMA26.42-11-3,0.0
+cat__DeviceInfo_Moto E (4) Build/NMA26.42-19,0.0
+cat__DeviceInfo_Moto E (4) Build/NMA26.42-69,0.0
+cat__DeviceInfo_Moto E (4) Plus Build/NMA26.42-11-3,0.0
+cat__DeviceInfo_Moto G (5) Build/NPP25.137-82,0.0
+cat__DeviceInfo_SAMSUNG SM-A710M Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A720F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A730F Build/NMF26X,0.0
+cat__DeviceInfo_SAMSUNG SM-G530H Build/LRX22G,0.0
+cat__DeviceInfo_SAMSUNG SM-G530T Build/LMY47X,0.0
+cat__DeviceInfo_SAMSUNG SM-G531H Build/LMY48B,0.0
+cat__DeviceInfo_SAMSUNG SM-G532M Build/MMB29T,0.0
+cat__DeviceInfo_SAMSUNG SM-G570M Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-G570M Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G610M Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G800F Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-G850F/G850FXXS2CQD9 Build/LRX22G,0.0
+cat__DeviceInfo_Redmi Note 5A Build/N2G47H,0.0
+cat__DeviceInfo_S.N.O.W.4,0.0
+cat__DeviceInfo_P00A,0.0
+cat__DeviceInfo_S57 Build/KTU84P,0.0
+cat__DeviceInfo_S60 Build/MMB29M,0.0
+cat__DeviceInfo_S6000,0.0
+cat__DeviceInfo_S70V,0.0
+cat__DeviceInfo_SAMSUNG,0.0
+cat__DeviceInfo_SAMSUNG SM-A300H Build/LRX22G,0.0
+cat__DeviceInfo_SAMSUNG SM-A310F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A310F/A310FXXU4CRB1 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A310M Build/LMY47X,0.0
+cat__DeviceInfo_SAMSUNG SM-A320FL Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A320Y Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A510F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A510M Build/MMB29K,0.0
+cat__DeviceInfo_RNE-L21 Build/HUAWEIRNE-L21,0.0
+cat__DeviceInfo_RNE-L22 Build/HUAWEIRNE-L22,0.0
+cat__DeviceInfo_S471,0.0
+cat__DeviceInfo_SAMSUNG SM-G925I Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G925P Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-G925P Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G928G Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G930A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G930F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G930F/XXU2DRC1 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G930P Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G930R4 Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G930T Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G935A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G935F Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-G935F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G935P Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G890A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A520F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G892A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G892A Build/R16NW,0.0
+cat__DeviceInfo_SAMSUNG SM-G900A Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-G900F Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-G900I Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-G900M Build/LRX21T,0.0
+cat__DeviceInfo_SAMSUNG SM-G900T Build/MMB29M,0.0
+cat__DeviceInfo_SAMSUNG SM-G903F Build/MMB29K,0.0
+cat__DeviceInfo_SAMSUNG SM-G920A Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G920F Build/LRX22G,0.0
+cat__DeviceInfo_SAMSUNG SM-G920F Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G920I Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G920P Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G920T Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-A510M Build/NRD90M,0.0
+cat__DeviceInfo_SAMSUNG SM-G891A Build/NRD90M,0.0
+cat__DeviceInfo_Pixel Build/OPM2.171019.029,0.0
+cat__DeviceInfo_Pixel Build/OPM4.171019.016.B1,0.0
+cat__DeviceInfo_Pixel Build/OPR3.170623.013,0.0
+cat__DeviceInfo_Pixel XL Build/OPM1.171019.011,0.0
+cat__DeviceInfo_Pixel XL Build/OPM1.171019.016,0.0
+cat__DeviceInfo_Pixel XL Build/OPM1.171019.021,0.0
+cat__DeviceInfo_Pixel XL Build/OPM4.171019.016.B1,0.0
+cat__DeviceInfo_QMV7A,0.0
+cat__DeviceInfo_QTAIR7 Build/LMY47D,0.0
+cat__DeviceInfo_QTAQZ3 Build/KOT49H,0.0
+cat__DeviceInfo_PLE-701L,0.0
+cat__DeviceInfo_PLK-L01 Build/HONORPLK-L01,0.0
+cat__DeviceInfo_PLUS,0.0
+cat__DeviceInfo_PMID7102DC,0.0
+cat__DeviceInfo_RNE-L23 Build/HUAWEIRNE-L23,0.0
+cat__DeviceInfo_PRA507,0.0
+cat__DeviceInfo_PSPC550 Build/LMY47D,0.0
+cat__DeviceInfo_PULP 4G Build/LMY47V,0.0
+cat__DeviceInfo_Pixel,0.0
+cat__DeviceInfo_Pixel 2 Build/OPM1.171019.011,0.0
+cat__DeviceInfo_Pixel 2 Build/OPM1.171019.019,0.0
+cat__DeviceInfo_Pixel 2 Build/OPM1.171019.021,0.0
+cat__DeviceInfo_Pixel 2 Build/OPM2.171019.016,0.0
+cat__DeviceInfo_Pixel 2 XL Build/OPM1.171019.011,0.0
+cat__DeviceInfo_Pixel 2 XL Build/OPM1.171019.013,0.0
+cat__DeviceInfo_ONEPLUS A5000 Build/NMF26X,0.0
+cat__DeviceInfo_ONEPLUS A5010 Build/OPM1.171019.011,0.0
+cat__DeviceInfo_ORION,0.0
+cat__DeviceInfo_Origins,0.0
+cat__DeviceInfo_P008 Build/NRD90M,0.0
+cat__DeviceInfo_PRA-LX1 Build/HUAWEIPRA-LX1,0.0
+cat__DeviceInfo_RS988,0.0
+cat__DeviceInfo_RS988 Build/MMB29M,0.0
+cat__DeviceInfo_Redmi,0.0
+cat__DeviceInfo_Redmi 3S Build/MMB29M,0.0
+cat__DeviceInfo_Redmi 4A Build/MMB29M,0.0
+cat__DeviceInfo_Redmi 4A Build/N2G47H,0.0
+cat__DeviceInfo_Redmi 4X Build/N2G47H,0.0
+cat__DeviceInfo_Redmi 5 Plus Build/N2G47H,0.0
+cat__DeviceInfo_Redmi Note 3 Build/MMB29M,0.0
+cat__DeviceInfo_Redmi Note 4 Build/MMB29M,0.0
+cat__DeviceInfo_Redmi Note 4X Build/MRA58K,0.0
+cat__DeviceInfo_QTAQZ3 Build/LMY47V,0.0
+cat__DeviceInfo_QTASUN1,0.0
+cat__DeviceInfo_QTASUN1 Build/NRD90M,0.0
+cat__DeviceInfo_QwestIE8,0.0
+cat__DeviceInfo_Pixel Build/OPM1.171019.016,0.0
+cat__DeviceInfo_R2,0.0
+cat__DeviceInfo_R8106,0.0
+cat__DeviceInfo_R831L,0.0
+cat__DeviceInfo_RCT6203W46 Build/KOT49H,0.0
+cat__DeviceInfo_RCT6223W87,0.0
+cat__DeviceInfo_RCT6303W87M7 Build/MRA58K,0.0
+cat__DeviceInfo_RCT6513W87 Build/MRA58K,0.0
+cat__DeviceInfo_RCT6773W22B,0.0
+cat__DeviceInfo_RCT6K03W13,0.0
+cat__DeviceInfo_RCT6S03W12,0.0
+cat__DeviceInfo_Pixel 2 XL Build/OPM1.171019.021,0.0
+cat__DeviceInfo_Pixel 2 XL Build/OPM2.171019.029,0.0
+cat__DeviceInfo_Pixel 2 XL Build/OPM2.171019.029.B1,0.0
+cat__DeviceInfo_Pixel Build/OPM1.171019.011,0.0
+cat__DeviceInfo_Pixel Build/OPM1.171019.012,0.0
+cat__DeviceInfo_R1,0.0
+cat__DeviceInfo_WAS-L03T Build/HUAWEIWAS-L03T,0.0
+cat__DeviceInfo_WAS-LX1 Build/HUAWEIWAS-LX1,0.0
+cat__DeviceInfo_WAS-LX1A Build/HUAWEIWAS-LX1A,0.0
+cat__DeviceInfo_WAS-LX2J,0.0
+cat__DeviceInfo_WAS-TL10 Build/HUAWEIWAS-TL10,0.0
+cat__DeviceInfo_WOW64,0.0
+cat__DeviceInfo_Wileyfox,0.0
+cat__DeviceInfo_Win64,0.0
+cat__DeviceInfo_VS500,0.0
+cat__DeviceInfo_VS501 Build/NRD90U,0.0
+cat__DeviceInfo_VS820,0.0
+cat__DeviceInfo_VS835,0.0
+cat__DeviceInfo_VS880,0.0
+cat__DeviceInfo_VS880PP,0.0
+cat__DeviceInfo_MYA-L13 Build/HUAWEIMYA-L13,0.0
+cat__DeviceInfo_VS985,0.0
+cat__DeviceInfo_VS986 Build/MRA58K,0.0
+cat__DeviceInfo_VS987 Build/NRD90U,0.0
+cat__DeviceInfo_VS988 Build/NRD90U,0.0
+cat__DeviceInfo_VS990 Build/MRA58K,0.0
+cat__DeviceInfo_VS996,0.0
+cat__DeviceInfo_VS996 Build/OPR1.170623.026,0.0
+cat__DeviceInfo_TREKKER-X3 Build/MMB29M,0.0
+cat__DeviceInfo_TRT-LX3,0.0
+cat__DeviceInfo_Techpad,0.0
+cat__DeviceInfo_Tmovi Build/Vision,0.0
+cat__DeviceInfo_Touch,0.0
+cat__DeviceInfo_Turbo C5 Build/LMY47I,0.0
+cat__DeviceInfo_U,0.0
+cat__DeviceInfo_U FEEL LITE Build/MRA58K,0.0
+cat__DeviceInfo_VS980 4G Build/LRX22G,0.0
+cat__DeviceInfo_XT1058 Build/LPAS23.12-21.7-1,0.0
+cat__DeviceInfo_XT1063,0.0
+cat__DeviceInfo_XT1063 Build/MPB24.65-34,0.0
+cat__DeviceInfo_XT1063 Build/MPB24.65-34-3,0.0
+cat__DeviceInfo_XT1064,0.0
+cat__DeviceInfo_XT1064 Build/MPB24.65-34-3,0.0
+cat__DeviceInfo_XT1068,0.0
+cat__DeviceInfo_XT1072,0.0
+cat__DeviceInfo_XT1080,0.0
+cat__DeviceInfo_Windows NT 6.1,0.0
+cat__DeviceInfo_Windows NT 6.2,0.0
+cat__DeviceInfo_X10,0.0
+cat__DeviceInfo_X3402,0.0
+cat__DeviceInfo_X78,0.0
+cat__DeviceInfo_Vivo,0.0
+cat__DeviceInfo_XT1003,0.0
+cat__DeviceInfo_XT1008,0.0
+cat__DeviceInfo_XT1008 Build/LPBS23.13-56-2,0.0
+cat__DeviceInfo_XT1021,0.0
+cat__DeviceInfo_XT1021 Build/KXC21.5-40,0.0
+cat__DeviceInfo_XT1021 Build/LPCS23.13-34.8-3,0.0
+cat__DeviceInfo_XT1023,0.0
+cat__DeviceInfo_XT1030 Build/SU6-7.7,0.0
+cat__DeviceInfo_XT1032,0.0
+cat__DeviceInfo_XT1032 Build/KXB20.9-1.10-1.24-1.1,0.0
+cat__DeviceInfo_VT0701A08,0.0
+cat__DeviceInfo_VTR-AL00 Build/HUAWEIVTR-AL00,0.0
+cat__DeviceInfo_VTR-L09 Build/HUAWEIVTR-L09,0.0
+cat__DeviceInfo_VTR-L29,0.0
+cat__DeviceInfo_VerykoolS5030,0.0
+cat__DeviceInfo_X900+,0.0
+cat__DeviceInfo_TA-1025 Build/OPR1.170623.026,0.0
+cat__DeviceInfo_TA-1027,0.0
+cat__DeviceInfo_TA-1027 Build/N2G47H,0.0
+cat__DeviceInfo_TA-1027 Build/OPR1.170623.026,0.0
+cat__DeviceInfo_TA-1028 Build/NMF26O,0.0
+cat__DeviceInfo_SM-T817V Build/NRD90M,0.0
+cat__DeviceInfo_SM-T820 Build/NRD90M,0.0
+cat__DeviceInfo_SM-T825 Build/NRD90M,0.0
+cat__DeviceInfo_SM-T827V Build/NRD90M,0.0
+cat__DeviceInfo_SMART,0.0
+cat__DeviceInfo_SOV33 Build/35.0.D.2.25,0.0
+cat__DeviceInfo_SPH-L720,0.0
+cat__DeviceInfo_SPH-L720T,0.0
+cat__DeviceInfo_STELLAR,0.0
+cat__DeviceInfo_UL40,0.0
+cat__DeviceInfo_STK_Sync_5e,0.0
+cat__DeviceInfo_STUDIO_G_HD,0.0
+cat__DeviceInfo_STV100-1,0.0
+cat__DeviceInfo_STV100-2 Build/MMB29M,0.0
+cat__DeviceInfo_STV100-3,0.0
+cat__DeviceInfo_STV100-4 Build/LMY47V,0.0
+cat__DeviceInfo_SM-T560NU Build/NMF26X,0.0
+cat__DeviceInfo_SM-T580,0.0
+cat__DeviceInfo_SM-T580 Build/NRD90M,0.0
+cat__DeviceInfo_SM-T585,0.0
+cat__DeviceInfo_SM-T587P,0.0
+cat__DeviceInfo_SM-T670,0.0
+cat__DeviceInfo_SM-T700 Build/MMB29K,0.0
+cat__DeviceInfo_SM-T705,0.0
+cat__DeviceInfo_SM-T710 Build/NRD90M,0.0
+cat__DeviceInfo_STF-L09 Build/HUAWEISTF-L09,0.0
+cat__DeviceInfo_V.40R,0.0
+cat__DeviceInfo_VFD,0.0
+cat__DeviceInfo_VK700 Build/LRX22G,0.0
+cat__DeviceInfo_VK815,0.0
+cat__DeviceInfo_VKY-L09 Build/HUAWEIVKY-L09,0.0
+cat__DeviceInfo_VS425PP Build/LMY47V,0.0
+cat__DeviceInfo_TA-1028 Build/NRD90M,0.0
+cat__DeviceInfo_TA-1028 Build/O00623,0.0
+cat__DeviceInfo_TA-1032,0.0
+cat__DeviceInfo_TA-1038,0.0
+cat__DeviceInfo_TA-1038 Build/NMF26O,0.0
+cat__DeviceInfo_TA-1038 Build/O00623,0.0
+cat__DeviceInfo_TA-1039 Build/N2G47H,0.0
+cat__DeviceInfo_TA-1039 Build/NMF26F,0.0
+cat__DeviceInfo_TA-1044,0.0
+cat__DeviceInfo_TA-1025 Build/NMF26F,0.0
+cat__DeviceInfo_TA-1044 Build/OPR1.170623.026,0.0
+cat__DeviceInfo_TA-1052,0.0
+cat__DeviceInfo_TOMMY2,0.0
+cat__DeviceInfo_TR10CS1 Build/JDQ39,0.0
+cat__DeviceInfo_TREKKER-M1,0.0
+cat__DeviceInfo_Shift Build/LMY47I,0.0
+cat__DeviceInfo_Star,0.0
+cat__DeviceInfo_Stellar,0.0
+cat__DeviceInfo_Studio,0.0
+cat__DeviceInfo_Swift,0.0
+cat__DeviceInfo_T08,0.0
+cat__DeviceInfo_TA-1003,0.0
+cat__DeviceInfo_TA-1004,0.0
+cat__DeviceInfo_TA-1020,0.0
+cat__DeviceInfo_TA-1025,0.0
+cat__DeviceInfo_TA-1044 Build/NMF26F,0.0
+cat__DeviceInfo_es-mx,0.0
+cat__DeviceInfo_es-us,0.0
+cat__DeviceInfo_gxq6580_weg_l Build/LMY47I,0.0
+cat__DeviceInfo_hp2015,0.0
+cat__DeviceInfo_iPhone,0.0
+cat__DeviceInfo_iris 820 Build/MRA58K,0.0
+cat__DeviceInfo_iris 870 Build/MRA58K,0.0
+cat__DeviceInfo_iris50,0.0
+cat__DeviceInfo_iris702,0.0
+cat__DeviceInfo_iris80,0.0
+cat__DeviceInfo_Z982 Build/NMF26V,0.0
+cat__DeviceInfo_Z983 Build/NMF26F,0.0
+cat__DeviceInfo_ZA509,0.0
+cat__DeviceInfo_ZA990,0.0
+cat__DeviceInfo_XT1055,0.0
+cat__DeviceInfo_ZTE,0.0
+cat__DeviceInfo_ZTE A2017U Build/NRD90M,0.0
+cat__DeviceInfo_ZTE BLADE A321 Build/NMF26F,0.0
+cat__DeviceInfo_ZTE BLADE A512 Build/MMB29M,0.0
+cat__DeviceInfo_ZTE BLADE A6 Build/NMF26F,0.0
+cat__DeviceInfo_ZTE BLADE V8 MINI Build/NRD90M,0.0
+cat__DeviceInfo_ZTE Blade A511 Build/MRA58K,0.0
+cat__DeviceInfo_ZTE Blade L5 Build/LMY47I,0.0
+cat__DeviceInfo_ZTE-Z835,0.0
+cat__DeviceInfo_ZTE-Z956,0.0
+cat__DeviceInfo_ZUR70016,0.0
+cat__DeviceInfo_Z831,0.0
+cat__DeviceInfo_Z832 Build/MMB29M,0.0
+cat__DeviceInfo_Z833,0.0
+cat__DeviceInfo_Z835 Build/NMF26V,0.0
+cat__DeviceInfo_ZEIA8,0.0
+cat__DeviceInfo_m3,0.0
+cat__DeviceInfo_rv:42.0,0.0
+cat__DeviceInfo_rv:43.0,0.0
+cat__DeviceInfo_rv:60.0,0.0
+cat__DeviceInfo_rv:61.0,0.0
+cat__DeviceInfo_verykool,0.0
+cat__DeviceInfo_verykoolS5005,0.0
+cat__DeviceInfo_verykoolS5019,0.0
+cat__DeviceInfo_verykoolS5525,0.0
+cat__DeviceInfo_verykoolS5530 Build/LMY47I,0.0
+cat__DeviceInfo_verykools4009,0.0
+cat__DeviceInfo_verykools5004,0.0
+cat__DeviceInfo_verykools5035,0.0
+cat__DeviceInfo_vivo,0.0
+cat__DeviceInfo_en-us,0.0
+cat__DeviceInfo_moto,0.0
+cat__DeviceInfo_moto g(6) play Build/OPP27.61-14-4,0.0
+cat__DeviceInfo_moto x4 Build/NPW26.83-18-2-0-4,0.0
+cat__DeviceInfo_moto x4 Build/NPW26.83-42,0.0
+cat__DeviceInfo_moto x4 Build/OPW27.57-40,0.0
+cat__DeviceInfo_moto x4 Build/OPWS27.57-40-14,0.0
+cat__DeviceInfo_moto x4 Build/OPWS27.57-40-6,0.0
+cat__DeviceInfo_orbis,0.0
+cat__DeviceInfo_rv:14.0,0.0
+cat__DeviceInfo_rv:31.0,0.0
+cat__DeviceInfo_rv:35.0,0.0
+cat__DeviceInfo_rv:37.0,0.0
+cat__DeviceInfo_rv:38.0,0.0
+cat__DeviceInfo_ZUUM_ZEN_I Build/LRX21M,0.0
+cat__DeviceInfo_en-gb,0.0
+cat__DeviceInfo_xs-Z47b7VqTMxs,0.0
+cat__DeviceInfo_XT1635-01,0.0
+cat__DeviceInfo_XT1635-01 Build/NDNS26.118-23-12-3,0.0
+cat__DeviceInfo_XT1635-02,0.0
+cat__DeviceInfo_XT1635-02 Build/OPN27.76-12-22,0.0
+cat__DeviceInfo_XT1650,0.0
+cat__DeviceInfo_XT1650 Build/NCLS26.118-23-13-3,0.0
+cat__DeviceInfo_XT1650 Build/NCLS26.118-23-13-6-5,0.0
+cat__DeviceInfo_XT1650 Build/NPLS26.118-20-5-11,0.0
+cat__DeviceInfo_XT1080 Build/SU6-7.7,0.0
+cat__DeviceInfo_XT1092,0.0
+cat__DeviceInfo_XT1094,0.0
+cat__DeviceInfo_XT1096,0.0
+cat__DeviceInfo_XT1097,0.0
+cat__DeviceInfo_XT1225,0.0
+cat__DeviceInfo_Z836BL,0.0
+cat__DeviceInfo_XT1254 Build/MCG24.251-5-5,0.0
+cat__DeviceInfo_XT1528,0.0
+cat__DeviceInfo_XT1563 Build/MPD24.107-52,0.0
+cat__DeviceInfo_XT1563 Build/MPD24.65-25,0.0
+cat__DeviceInfo_XT1563 Build/MPDS24.107-52-5,0.0
+cat__DeviceInfo_XT1565,0.0
+cat__DeviceInfo_XT1572 Build/NPHS25.200-15-8,0.0
+cat__DeviceInfo_XT1575,0.0
+cat__DeviceInfo_XT1575 Build/NPHS25.200-23-1,0.0
+cat__DeviceInfo_XT1032 Build/KXB21.14-L1.40,0.0
+cat__DeviceInfo_XT1032 Build/LPBS23.13-56-2,0.0
+cat__DeviceInfo_XT1032 Build/LPBS23.13-57-2,0.0
+cat__DeviceInfo_XT1033,0.0
+cat__DeviceInfo_XT1040,0.0
+cat__DeviceInfo_XT1053 Build/LPAS23.12-21.7-1,0.0
+cat__DeviceInfo_XT1254,0.0
+cat__DeviceInfo_Z837VL,0.0
+cat__DeviceInfo_Z839,0.0
+cat__DeviceInfo_Z9 PLUS Build/NRD90M,0.0
+cat__DeviceInfo_Z955A,0.0
+cat__DeviceInfo_Z956 Build/MMB29M,0.0
+cat__DeviceInfo_Z963VL,0.0
+cat__DeviceInfo_Z965 Build/NMF26V,0.0
+cat__DeviceInfo_Z970,0.0
+cat__DeviceInfo_Z971,0.0
+cat__DeviceInfo_Z981 Build/MMB29M,0.0
+cat__DeviceInfo_XT1650 Build/NPLS26.118-20-5-3,0.0
+cat__DeviceInfo_XT1680,0.0
+cat__DeviceInfo_XT1710-02,0.0
+cat__DeviceInfo_XT1710-02 Build/NDSS26.118-23-15,0.0
+cat__DeviceInfo_XT1710-02 Build/NDSS26.118-23-19-6,0.0
+cat__DeviceInfo_XT1609 Build/NPIS26.48-38-3,0.0
+cat__DeviceInfo_Y550-L02,0.0
+cat__DeviceInfo_YOLO,0.0
+cat__DeviceInfo_Z,0.0
+cat__DeviceInfo_Z2,0.0
+cat__DeviceInfo_Z410,0.0
+cat__DeviceInfo_Z557BL,0.0
+cat__DeviceInfo_Z798BL Build/MMB29M,0.0
+cat__DeviceInfo_Z799VL,0.0
+cat__DeviceInfo_Z812,0.0
+cat__DeviceInfo_XT1580,0.0
+cat__DeviceInfo_XT1580 Build/NPKS25.200-12-9,0.0
+cat__DeviceInfo_XT1580 Build/NPKS25.200-17-8,0.0
+cat__DeviceInfo_XT1585 Build/NCK25.118-10.5,0.0
+cat__DeviceInfo_XT1609,0.0
+cat__DeviceInfo_XT1609 Build/MPIS24.241-2.35-1-17,0.0
+cat__DeviceInfo_XT890 Build/9.8.2I-50_SML-25,0.0
+cat__DeviceInfo_SM-G9600 Build/R16NW,0.0
+cat__DeviceInfo_SM-G960F Build/R16NW,0.0
+cat__DeviceInfo_SM-G960U Build/R16NW,0.0
+cat__DeviceInfo_SM-G9650 Build/R16NW,0.0
+cat__DeviceInfo_SM-G930V Build/MMB29M,0.0
+cat__DeviceInfo_SM-G930V Build/NRD90M,0.0
+cat__DeviceInfo_SM-G930VL Build/NRD90M,0.0
+cat__DeviceInfo_SM-G930W8 Build/NRD90M,0.0
+cat__DeviceInfo_SM-G935F Build/MMB29K,0.0
+cat__DeviceInfo_SM-G935P Build/NRD90M,0.0
+cat__DeviceInfo_SM-G935T,0.0
+cat__DeviceInfo_SM-G935T Build/NRD90M,0.0
+cat__DeviceInfo_SM-G935U,0.0
+cat__DeviceInfo_SM-G935V,0.0
+cat__DeviceInfo_SM-T713 Build/NRD90M,0.0
+cat__DeviceInfo_SM-G935W8,0.0
+cat__DeviceInfo_SM-G950F Build/R16NW,0.0
+cat__DeviceInfo_SM-G950U Build/NRD90M,0.0
+cat__DeviceInfo_SM-G928G Build/NRD90M,0.0
+cat__DeviceInfo_SM-G928P,0.0
+cat__DeviceInfo_SM-G928P Build/NRD90M,0.0
+cat__DeviceInfo_SM-G928T Build/NRD90M,0.0
+cat__DeviceInfo_SM-G928V,0.0
+cat__DeviceInfo_SM-G928V Build/MMB29K,0.0
+cat__DeviceInfo_SM-G928V Build/NRD90M,0.0
+cat__DeviceInfo_SM-G930F Build/MMB29K,0.0
+cat__DeviceInfo_SM-G930F Build/NRD90M,0.0
+cat__DeviceInfo_SM-G930P,0.0
+cat__DeviceInfo_SM-G930P Build/NRD90M,0.0
+cat__DeviceInfo_SM-G930R4 Build/NRD90M,0.0
+cat__DeviceInfo_SM-G935V Build/NRD90M,0.0
+cat__DeviceInfo_SM-J500G,0.0
+cat__DeviceInfo_SM-J500H,0.0
+cat__DeviceInfo_SM-J500M Build/LMY48B,0.0
+cat__DeviceInfo_SM-J500M Build/MMB29M,0.0
+cat__DeviceInfo_SM-J510F,0.0
+cat__DeviceInfo_SM-G965F Build/R16NW,0.0
+cat__DeviceInfo_SM-G965U Build/R16NW,0.0
+cat__DeviceInfo_SM-J100MU,0.0
+cat__DeviceInfo_SM-J100VPP Build/LMY48B,0.0
+cat__DeviceInfo_SM-J105B Build/LMY47V,0.0
+cat__DeviceInfo_SM-J110M Build/LMY48B,0.0
+cat__DeviceInfo_SM-J111M Build/LMY47V,0.0
+cat__DeviceInfo_SM-J120FN Build/LMY47X,0.0
+cat__DeviceInfo_SM-J120H Build/LMY47V,0.0
+cat__DeviceInfo_SM-G955W,0.0
+cat__DeviceInfo_SM-J200H,0.0
+cat__DeviceInfo_SM-J200M Build/LMY47X,0.0
+cat__DeviceInfo_SM-J320FN Build/LMY47V,0.0
+cat__DeviceInfo_SM-J320M Build/LMY47V,0.0
+cat__DeviceInfo_SM-J320P Build/LMY47X,0.0
+cat__DeviceInfo_SM-J320V Build/MMB29M,0.0
+cat__DeviceInfo_SM-G950U Build/R16NW,0.0
+cat__DeviceInfo_SM-G950U1 Build/NRD90M,0.0
+cat__DeviceInfo_SM-G950U1 Build/R16NW,0.0
+cat__DeviceInfo_SM-G950W,0.0
+cat__DeviceInfo_SM-G955F,0.0
+cat__DeviceInfo_SM-G955F Build/R16NW,0.0
+cat__DeviceInfo_SM-G955U Build/R16NW,0.0
+cat__DeviceInfo_SM-G955U1 Build/NRD90M,0.0
+cat__DeviceInfo_SM-G955U1 Build/R16NW,0.0
+cat__DeviceInfo_SM-J120W,0.0
+cat__DeviceInfo_SM-G920T1,0.0
+cat__DeviceInfo_SM-G920V,0.0
+cat__DeviceInfo_SM-G920V Build/MMB29K,0.0
+cat__DeviceInfo_SM-G900F Build/MMB29M,0.0
+cat__DeviceInfo_SM-G900FD,0.0
+cat__DeviceInfo_SM-G900H Build/MMB29K,0.0
+cat__DeviceInfo_SM-G900I,0.0
+cat__DeviceInfo_SM-G900L,0.0
+cat__DeviceInfo_SM-G900M Build/KOT49H,0.0
+cat__DeviceInfo_SM-G900M Build/LRX21T,0.0
+cat__DeviceInfo_SM-G900M Build/MMB29M,0.0
+cat__DeviceInfo_SM-G900P Build/LRX21T,0.0
+cat__DeviceInfo_SM-G900P Build/MMB29M,0.0
+cat__DeviceInfo_SM-G900R4,0.0
+cat__DeviceInfo_SM-G930R7,0.0
+cat__DeviceInfo_SM-G900T1,0.0
+cat__DeviceInfo_SM-G900V,0.0
+cat__DeviceInfo_SM-G900V Build/LRX21T,0.0
+cat__DeviceInfo_SM-G900V Build/MMB29M,0.0
+cat__DeviceInfo_SM-G610F Build/NRD90M,0.0
+cat__DeviceInfo_SM-G610M Build/NRD90M,0.0
+cat__DeviceInfo_SM-G615F,0.0
+cat__DeviceInfo_SM-G7105,0.0
+cat__DeviceInfo_SM-G720AX,0.0
+cat__DeviceInfo_SM-G730V,0.0
+cat__DeviceInfo_SM-G730W8 Build/KOT49H,0.0
+cat__DeviceInfo_SM-G800F Build/KOT49H,0.0
+cat__DeviceInfo_SM-G800F Build/MMB29K,0.0
+cat__DeviceInfo_SM-G800M Build/KOT49H,0.0
+cat__DeviceInfo_SM-G850M,0.0
+cat__DeviceInfo_SM-G900T Build/MMB29M,0.0
+cat__DeviceInfo_SM-G930T Build/NRD90M,0.0
+cat__DeviceInfo_SM-G930T1,0.0
+cat__DeviceInfo_SM-G930U Build/NRD90M,0.0
+cat__DeviceInfo_SM-G920V Build/NRD90M,0.0
+cat__DeviceInfo_SM-G920W8,0.0
+cat__DeviceInfo_SM-G9250,0.0
+cat__DeviceInfo_SM-G925F Build/NRD90M,0.0
+cat__DeviceInfo_SM-G925I Build/LMY47X,0.0
+cat__DeviceInfo_SM-G925I Build/MMB29K,0.0
+cat__DeviceInfo_SM-G925I Build/NRD90M,0.0
+cat__DeviceInfo_SM-G925P Build/NRD90M,0.0
+cat__DeviceInfo_SM-G925R4,0.0
+cat__DeviceInfo_SM-G925T Build/LMY47X,0.0
+cat__DeviceInfo_SM-G925T Build/NRD90M,0.0
+cat__DeviceInfo_SM-G925V Build/NRD90M,0.0
+cat__DeviceInfo_SM-G920T Build/NRD90M,0.0
+cat__DeviceInfo_SM-G928F,0.0
+cat__DeviceInfo_SM-G928G,0.0
+cat__DeviceInfo_SM-G928G Build/MMB29K,0.0
+cat__DeviceInfo_SM-G900W8,0.0
+cat__DeviceInfo_SM-G901F,0.0
+cat__DeviceInfo_SM-G903F Build/MMB29K,0.0
+cat__DeviceInfo_SM-G903M,0.0
+cat__DeviceInfo_SM-G920F Build/MMB29K,0.0
+cat__DeviceInfo_SM-G920F Build/NRD90M,0.0
+cat__DeviceInfo_SM-G920I,0.0
+cat__DeviceInfo_SM-G920I Build/NRD90M,0.0
+cat__DeviceInfo_SM-G920P,0.0
+cat__DeviceInfo_SM-G920P Build/NRD90M,0.0
+cat__DeviceInfo_SM-G920R4,0.0
+cat__DeviceInfo_SM-G920T,0.0
+cat__DeviceInfo_SM-G925W8,0.0
+cat__DeviceInfo_SM-T310 Build/KOT49H,0.0
+cat__DeviceInfo_SM-T320 Build/KOT49H,0.0
+cat__DeviceInfo_SM-T330,0.0
+cat__DeviceInfo_SM-T330NU Build/LMY47X,0.0
+cat__DeviceInfo_SM-T337V,0.0
+cat__DeviceInfo_SM-T350 Build/MMB29M,0.0
+cat__DeviceInfo_SM-T350 Build/NMF26X,0.0
+cat__DeviceInfo_SM-P550,0.0
+cat__DeviceInfo_SM-P550 Build/MMB29M,0.0
+cat__DeviceInfo_SM-P550 Build/NMF26X,0.0
+cat__DeviceInfo_SM-P580 Build/NRD90M,0.0
+cat__DeviceInfo_SM-P600,0.0
+cat__DeviceInfo_SM-P600 Build/LMY47X,0.0
+cat__DeviceInfo_SM-P605V,0.0
+cat__DeviceInfo_SM-J500FN Build/MMB29M,0.0
+cat__DeviceInfo_SM-P900,0.0
+cat__DeviceInfo_SM-S120VL,0.0
+cat__DeviceInfo_SM-S327VL,0.0
+cat__DeviceInfo_SM-S550TL,0.0
+cat__DeviceInfo_SM-S727VL Build/MMB29M,0.0
+cat__DeviceInfo_SM-S902L,0.0
+cat__DeviceInfo_SM-S903VL,0.0
+cat__DeviceInfo_SM-S920L,0.0
+cat__DeviceInfo_SM-N920P Build/NRD90M,0.0
+cat__DeviceInfo_SM-N920R4,0.0
+cat__DeviceInfo_SM-N920T,0.0
+cat__DeviceInfo_SM-N920T Build/NRD90M,0.0
+cat__DeviceInfo_SM-N920V,0.0
+cat__DeviceInfo_SM-N920V Build/NRD90M,0.0
+cat__DeviceInfo_SM-N9500,0.0
+cat__DeviceInfo_SM-P607T,0.0
+cat__DeviceInfo_SM-T800,0.0
+cat__DeviceInfo_SM-T800 Build/MMB29K,0.0
+cat__DeviceInfo_SM-T810,0.0
+cat__DeviceInfo_SM-T810 Build/NRD90M,0.0
+cat__DeviceInfo_SM-T813 Build/NRD90M,0.0
+cat__DeviceInfo_SM-T817T,0.0
+cat__DeviceInfo_SM-T355Y Build/NMF26X,0.0
+cat__DeviceInfo_SM-T377P,0.0
+cat__DeviceInfo_SM-T377P Build/NMF26X,0.0
+cat__DeviceInfo_SM-T377T,0.0
+cat__DeviceInfo_SM-T377V,0.0
+cat__DeviceInfo_SM-T377V Build/NMF26X,0.0
+cat__DeviceInfo_SM-T380,0.0
+cat__DeviceInfo_SM-T520,0.0
+cat__DeviceInfo_SM-T280 Build/LMY47V,0.0
+cat__DeviceInfo_SM-T530NU Build/LRX22G,0.0
+cat__DeviceInfo_SM-T537V,0.0
+cat__DeviceInfo_SM-T550,0.0
+cat__DeviceInfo_SM-T550 Build/NMF26X,0.0
+cat__DeviceInfo_SM-T555,0.0
+cat__DeviceInfo_SM-T560 Build/KTU84P,0.0
+cat__DeviceInfo_SM-T560NU Build/MMB29M,0.0
+cat__DeviceInfo_SM-T110 Build/JDQ39,0.0
+cat__DeviceInfo_SM-T113 Build/KTU84P,0.0
+cat__DeviceInfo_SM-T113NU Build/KTU84P,0.0
+cat__DeviceInfo_SM-T210,0.0
+cat__DeviceInfo_SM-T217S Build/KOT49H,0.0
+cat__DeviceInfo_SM-T230 Build/KOT49H,0.0
+cat__DeviceInfo_SM-T230NU Build/KOT49H,0.0
+cat__DeviceInfo_SM-T237P,0.0
+cat__DeviceInfo_SM-T530 Build/LRX22G,0.0
+cat__DeviceInfo_SM-J727U Build/NRD90M,0.0
+cat__DeviceInfo_SM-J727V Build/NRD90M,0.0
+cat__DeviceInfo_SM-J727VPP Build/NRD90M,0.0
+cat__DeviceInfo_SM-J730G Build/NRD90M,0.0
+cat__DeviceInfo_SM-N9005 Build/LRX21V,0.0
+cat__DeviceInfo_SM-N900P Build/LRX21V,0.0
+cat__DeviceInfo_SM-J510FN,0.0
+cat__DeviceInfo_SM-J510FN Build/NMF26X,0.0
+cat__DeviceInfo_SM-J510MN Build/NMF26X,0.0
+cat__DeviceInfo_SM-J530F Build/NRD90M,0.0
+cat__DeviceInfo_SM-J530G,0.0
+cat__DeviceInfo_SM-J530GM Build/NRD90M,0.0
+cat__DeviceInfo_SM-J700F,0.0
+cat__DeviceInfo_SM-J700H Build/MMB29K,0.0
+cat__DeviceInfo_SM-N950F Build/NMF26X,0.0
+cat__DeviceInfo_SM-J700M Build/MMB29K,0.0
+cat__DeviceInfo_SM-J700P,0.0
+cat__DeviceInfo_SM-J700T Build/MMB29K,0.0
+cat__DeviceInfo_SM-J700T Build/NMF26X,0.0
+cat__DeviceInfo_SM-J700T1,0.0
+cat__DeviceInfo_SM-J700T1 Build/NMF26X,0.0
+cat__DeviceInfo_SM-J320V Build/NMF26X,0.0
+cat__DeviceInfo_SM-J320VPP,0.0
+cat__DeviceInfo_SM-J320W8,0.0
+cat__DeviceInfo_SM-J327P Build/MMB29M,0.0
+cat__DeviceInfo_SM-J327T Build/NRD90M,0.0
+cat__DeviceInfo_SM-J327V Build/NRD90M,0.0
+cat__DeviceInfo_SM-J327VPP Build/NRD90M,0.0
+cat__DeviceInfo_SM-J330F,0.0
+cat__DeviceInfo_SM-J330FN Build/NRD90M,0.0
+cat__DeviceInfo_SM-J700M Build/LMY48B,0.0
+cat__DeviceInfo_SM-N950U Build/NMF26X,0.0
+cat__DeviceInfo_SM-N950U Build/R16NW,0.0
+cat__DeviceInfo_SM-N950U1 Build/NMF26X,0.0
+cat__DeviceInfo_SM-N950U1 Build/R16NW,0.0
+cat__DeviceInfo_SM-N950W,0.0
+cat__DeviceInfo_SM-P350 Build/MMB29M,0.0
+cat__DeviceInfo_SM-P355M,0.0
+cat__DeviceInfo_SM-P355M Build/MMB29M,0.0
+cat__DeviceInfo_SM-N900T Build/LRX21V,0.0
+cat__DeviceInfo_SM-N900V Build/LRX21V,0.0
+cat__DeviceInfo_SM-N900W8 Build/LRX21V,0.0
+cat__DeviceInfo_SM-N910C Build/MMB29K,0.0
+cat__DeviceInfo_SM-N910F Build/MMB29M,0.0
+cat__DeviceInfo_SM-N910H,0.0
+cat__DeviceInfo_SM-N910P,0.0
+cat__DeviceInfo_SM-J727T1 Build/NRD90M,0.0
+cat__DeviceInfo_SM-N910T Build/MMB29M,0.0
+cat__DeviceInfo_SM-N910T3,0.0
+cat__DeviceInfo_SM-N910V Build/MMB29M,0.0
+cat__DeviceInfo_SM-N915V,0.0
+cat__DeviceInfo_SM-N920A Build/MMB29K,0.0
+cat__DeviceInfo_SM-N920C Build/NRD90M,0.0
+cat__DeviceInfo_SM-N920G Build/NRD90M,0.0
+cat__DeviceInfo_SM-N920P,0.0
+cat__DeviceInfo_SM-J710F Build/NRD90M,0.0
+cat__DeviceInfo_SM-J710GN,0.0
+cat__DeviceInfo_SM-J710GN Build/MMB29K,0.0
+cat__DeviceInfo_SM-J710MN Build/MMB29K,0.0
+cat__DeviceInfo_SM-J710MN Build/NRD90M,0.0
+cat__DeviceInfo_SM-J727P,0.0
+cat__DeviceInfo_SM-J727T Build/NRD90M,0.0
+cat__DeviceInfo_SM-N910T Build/LMY47X,0.0
+cat__id_33_3600x2250,0.0
+cat__id_33_3696x2310,0.0
+cat__id_33_3838x2158,0.0
+cat__id_33_3838x2160,0.0
+cat__id_33_3839x2160,0.0
+cat__id_33_3840x1080,0.0
+cat__id_33_3840x1600,0.0
+cat__id_33_3840x2162,0.0
+cat__id_33_3840x2400,0.0
+cat__id_33_3841x2161,0.0
+cat__id_33_4096x2304,0.0
+cat__id_33_2880x1442,0.0
+cat__id_33_2880x1620,0.0
+cat__id_33_2882x1442,0.0
+cat__DeviceInfo_rv:41.0,0.0
+cat__id_33_2961x1440,0.0
+cat__id_33_2961x1442,0.0
+cat__id_33_3000x2000,0.0
+cat__id_33_3001x2000,0.0
+cat__id_33_3072x1728,0.0
+cat__id_33_3200x1800,0.0
+cat__id_33_3200x2000,0.0
+cat__id_33_3201x1800,0.0
+cat__id_33_3240x2160,0.0
+cat__id_33_3360x1050,0.0
+cat__id_33_3360x1890,0.0
+cat__id_33_2560x1800,0.0
+cat__id_33_2561x1442,0.0
+cat__id_33_2562x1442,0.0
+cat__id_33_2672x1440,0.0
+cat__id_33_2960x1440,0.0
+cat__DeviceInfo_5017A,0.0
+cat__DeviceInfo_5025G Build/LMY47I,0.0
+cat__DeviceInfo_5042A,0.0
+cat__DeviceInfo_5044A,0.0
+cat__DeviceInfo_5051A Build/MMB29M,0.0
+cat__id_33_960x640,0.0
+cat__id_34_match_status:-1,0.0
+cat__DeviceInfo_0PJA2,0.0
+cat__DeviceInfo_0PM92,0.0
+cat__DeviceInfo_1016S,0.0
+cat__DeviceInfo_2PS64 Build/NRD90M,0.0
+cat__DeviceInfo_2PYB2,0.0
+cat__DeviceInfo_2PZC5,0.0
+cat__DeviceInfo_4003A,0.0
+cat__DeviceInfo_4009F,0.0
+cat__id_33_3520x1980,0.0
+cat__DeviceInfo_4027A Build/KOT49H,0.0
+cat__id_33_4200x2625,0.0
+cat__id_33_4499x2999,0.0
+cat__id_33_4500x3000,0.0
+cat__id_33_480x320,0.0
+cat__id_33_5760x1080,0.0
+cat__id_33_5760x3240,0.0
+cat__id_33_600x450,0.0
+cat__id_33_6016x3384,0.0
+cat__id_33_6720x3780,0.0
+cat__id_33_7500x5000,0.0
+cat__id_33_800x600,0.0
+cat__id_33_921x691,0.0
+cat__id_33_3440x1440,0.0
+cat__id_33_3441x1440,0.0
+cat__DeviceInfo_4013M Build/KOT49H,0.0
+cat__id_33_2220x1080,0.0
+cat__id_33_2220x1081,0.0
+cat__id_33_2255x1503,0.0
+cat__id_33_2256x1504,0.0
+cat__id_33_1920x1279,0.0
+cat__id_33_1920x1280,0.0
+cat__id_33_1920x1281,0.0
+cat__id_33_1921x1080,0.0
+cat__id_33_1921x1081,0.0
+cat__id_33_2000x1125,0.0
+cat__id_33_2001x1125,0.0
+cat__id_33_2048x1080,0.0
+cat__id_33_2048x1152,0.0
+cat__id_33_2048x1278,0.0
+cat__id_33_2700x1800,0.0
+cat__id_33_2049x1152,0.0
+cat__id_33_2049x1536,0.0
+cat__id_33_1800x1125,0.0
+cat__id_33_1805x1015,0.0
+cat__id_33_1824x1026,0.0
+cat__id_33_1848x1155,0.0
+cat__id_33_1888x941,0.0
+cat__id_33_1912x1025,0.0
+cat__id_33_1916x901,0.0
+cat__id_33_1919x1079,0.0
+cat__id_33_1919x1080,0.0
+cat__id_33_1919x1199,0.0
+cat__id_33_1919x1200,0.0
+cat__id_33_1920x1018,0.0
+cat__id_33_1920x1079,0.0
+cat__id_33_2048x1280,0.0
+cat__id_33_2710x1440,0.0
+cat__id_33_2735x1823,0.0
+cat__id_33_2735x1825,0.0
+cat__id_33_2736x1823,0.0
+cat__id_33_2736x1824,0.0
+cat__id_33_2737x1825,0.0
+cat__id_33_2800x1575,0.0
+cat__id_33_2816x1584,0.0
+cat__id_33_2816x1760,0.0
+cat__id_33_2880x1440,0.0
+cat__id_33_2304x1296,0.0
+cat__id_33_2304x1440,0.0
+cat__id_33_2368x1440,0.0
+cat__id_33_2392x1440,0.0
+cat__id_33_2400x1350,0.0
+cat__id_33_2160x1439,0.0
+cat__id_33_2400x1600,0.0
+cat__id_33_2520x1575,0.0
+cat__id_33_2552x1337,0.0
+cat__id_33_2559x1439,0.0
+cat__id_33_2559x1440,0.0
+cat__id_33_2560x1080,0.0
+cat__id_33_2560x1700,0.0
+cat__id_33_2100x1312,0.0
+cat__id_33_2112x1188,0.0
+cat__id_33_2159x1439,0.0
+cat__id_33_2159x1440,0.0
+cat__id_33_2160x1080,0.0
+cat__id_33_2160x1081,0.0
+cat__id_33_2160x1215,0.0
+cat__id_33_2160x1350,0.0
+cat__id_33_2400x1500,0.0
+cat__DeviceInfo_Alumini3Plus,0.0
+cat__DeviceInfo_Android,0.0
+cat__DeviceInfo_Android 4.4.2,0.0
+cat__DeviceInfo_Android 5.1,0.0
+cat__DeviceInfo_Android 5.1.1,0.0
+cat__DeviceInfo_Android 6.0,0.0
+cat__DeviceInfo_Android 6.0.1,0.0
+cat__DeviceInfo_ASUS_X015D Build/NRD90M,0.0
+cat__DeviceInfo_ASUS_X018D,0.0
+cat__DeviceInfo_ASUS_Z00AD Build/LRX21V,0.0
+cat__DeviceInfo_ASUS_Z00UD,0.0
+cat__DeviceInfo_ASUS_Z017D,0.0
+cat__DeviceInfo_ASUS_Z017DA,0.0
+cat__DeviceInfo_ASUS_Z01BDA,0.0
+cat__DeviceInfo_5012G Build/MRA58K,0.0
+cat__DeviceInfo_ASUS_Z01KD,0.0
+cat__DeviceInfo_ATT,0.0
+cat__DeviceInfo_ATT-IE11,0.0
+cat__DeviceInfo_AX1060,0.0
+cat__DeviceInfo_AX1070,0.0
+cat__DeviceInfo_AX820 Build/MRA58K,0.0
+cat__DeviceInfo_AX821 Build/MRA58K,0.0
+cat__DeviceInfo_AX920,0.0
+cat__DeviceInfo_ALE-L21 Build/HuaweiALE-L21,0.0
+cat__DeviceInfo_ALE-L23 Build/HuaweiALE-L23,0.0
+cat__DeviceInfo_ALP-L09 Build/HUAWEIALP-L09S,0.0
+cat__DeviceInfo_ALTER,0.0
+cat__DeviceInfo_ALUMINI,0.0
+cat__DeviceInfo_AM508,0.0
+cat__DeviceInfo_AOC_U706G,0.0
+cat__DeviceInfo_ASUS_Z01BDC,0.0
+cat__DeviceInfo_BLADE V8 Build/NRD90M,0.0
+cat__DeviceInfo_BLADE V8 SE Build/NRD90M,0.0
+cat__DeviceInfo_BLADE V8Q Build/N2G47H,0.0
+cat__DeviceInfo_BLL-L23 Build/HUAWEIBLL-L23,0.0
+cat__DeviceInfo_BLN-L21 Build/HONORBLN-L21,0.0
+cat__DeviceInfo_BLN-L24 Build/HONORBLN-L24,0.0
+cat__DeviceInfo_BLU,0.0
+cat__DeviceInfo_Android 7.0,0.0
+cat__DeviceInfo_Android 7.1.2,0.0
+cat__DeviceInfo_Aquaris,0.0
+cat__DeviceInfo_Aquaris U Plus Build/NMF26F,0.0
+cat__DeviceInfo_Aquaris V Build/N2G47H,0.0
+cat__DeviceInfo_Aquaris X5 Plus Build/NMF26F,0.0
+cat__DeviceInfo_Aquaris_A4.5,0.0
+cat__DeviceInfo_Azumi_KINZO_A5_QL,0.0
+cat__DeviceInfo_Alumini3 Build/MRA58K,0.0
+cat__DeviceInfo_B1-810,0.0
+cat__DeviceInfo_B3-A40,0.0
+cat__DeviceInfo_BAC-L03 Build/HUAWEIBAC-L03,0.0
+cat__DeviceInfo_BAH-L09 Build/HUAWEIBAH-L09,0.0
+cat__DeviceInfo_BBA100-1,0.0
+cat__DeviceInfo_BBA100-2,0.0
+cat__DeviceInfo_BBB100-1,0.0
+cat__DeviceInfo_AX921 Build/MRA58K,0.0
+cat__DeviceInfo_Advance,0.0
+cat__DeviceInfo_Alcatel,0.0
+cat__DeviceInfo_Alcatel_4060A,0.0
+cat__DeviceInfo_Alcatel_4060O Build/MMB29M,0.0
+cat__DeviceInfo_Alcatel_5044R Build/NRD90M,0.0
+cat__DeviceInfo_Alcatel_5054O,0.0
+cat__DeviceInfo_Alcatel_5098O Build/MMB29M,0.0
+cat__DeviceInfo_B1-750,0.0
+cat__DeviceInfo_A0001 Build/MHC19Q,0.0
+cat__DeviceInfo_A1-850,0.0
+cat__DeviceInfo_A1601 Build/LMY47I,0.0
+cat__DeviceInfo_A3-A20,0.0
+cat__DeviceInfo_A37f,0.0
+cat__DeviceInfo_A3_mini,0.0
+cat__DeviceInfo_A463BG,0.0
+cat__DeviceInfo_5054N,0.0
+cat__DeviceInfo_5054S Build/LMY47V,0.0
+cat__DeviceInfo_5056N,0.0
+cat__DeviceInfo_5057M,0.0
+cat__DeviceInfo_5080A Build/MRA58K,0.0
+cat__DeviceInfo_5085B Build/MRA58K,0.0
+cat__DeviceInfo_5095I Build/MRA58K,0.0
+cat__DeviceInfo_ASUS,0.0
+cat__DeviceInfo_6039A Build/LRX22G,0.0
+cat__DeviceInfo_6045I Build/LRX22G,0.0
+cat__DeviceInfo_6055B,0.0
+cat__DeviceInfo_7048A Build/LRX22G,0.0
+cat__DeviceInfo_7055A Build/KVT49L,0.0
+cat__DeviceInfo_8050G Build/LMY47I,0.0
+cat__DeviceInfo_8062 Build/MRA58K,0.0
+cat__DeviceInfo_4034E,0.0
+cat__DeviceInfo_4034G,0.0
+cat__DeviceInfo_4047A Build/NRD90M,0.0
+cat__DeviceInfo_4047G Build/NRD90M,0.0
+cat__DeviceInfo_47418,0.0
+cat__DeviceInfo_5010G Build/MRA58K,0.0
+cat__DeviceInfo_5010S Build/MRA58K,0.0
+cat__DeviceInfo_5011A Build/NRD90M,0.0
+cat__DeviceInfo_6037B,0.0
+cat__DeviceInfo_ASUS_A001,0.0
+cat__DeviceInfo_ASUS_X008D Build/NRD90M,0.0
+cat__DeviceInfo_ASUS_X008DC Build/NRD90M,0.0
+cat__DeviceInfo_ASUS_X00DD,0.0
+cat__DeviceInfo_ASUS_X00DDA,0.0
+cat__DeviceInfo_ASUS_X00HD Build/NMF26F,0.0
+cat__DeviceInfo_ASUS_X00ID,0.0
+cat__DeviceInfo_A466BG,0.0
+cat__DeviceInfo_A5002,0.0
+cat__DeviceInfo_A574BL Build/NMF26F,0.0
+cat__DeviceInfo_A577VL,0.0
+cat__DeviceInfo_A621R,0.0
+cat__DeviceInfo_A9,0.0
+cat__DeviceInfo_A952,0.0
+cat__DeviceInfo_A96 Build/LMY47I,0.0
+cat__DeviceInfo_A0001,0.0
+cat__DeviceInfo_AERIAL Build/NRD90M,0.0
+cat__DeviceInfo_AKUS,0.0
+cat__DeviceInfo_ALCATEL,0.0
+cat__DeviceInfo_ALCATEL ONE TOUCH 5036A Build/JDQ39,0.0
+cat__DeviceInfo_ALCATEL ONE TOUCH 7040A Build/JDQ39,0.0
+cat__DeviceInfo_ALCATEL ONE TOUCH 7042A Build/JDQ39,0.0
+cat__DeviceInfo_ALCATEL ONE TOUCH 7047A Build/JDQ39,0.0
+cat__DeviceInfo_8080 Build/LRX21M,0.0
+cat__DeviceInfo_831C,0.0
+cat__DeviceInfo_9002A,0.0
+cat__DeviceInfo_9003A Build/MRA58K,0.0
+cat__DeviceInfo_9008A Build/NRD90M,0.0
+cat__DeviceInfo_9022X,0.0
+cat__DeviceInfo_916,0.0
+cat__DeviceInfo_9203A Build/MRA58K,0.0
+cat__DeviceInfo_AERIAL,0.0
+cat__id_31_chrome 49.0 for android,0.0
+cat__id_31_chrome 51.0,0.0
+cat__id_31_chrome 51.0 for android,0.0
+cat__id_31_chrome 53.0 for android,0.0
+cat__id_31_chrome 54.0 for android,0.0
+cat__id_31_chrome 55.0,0.0
+cat__id_31_BLU/Dash,0.0
+cat__id_31_Generic/Android,0.0
+cat__id_31_Generic/Android 7.0,0.0
+cat__id_31_Inco/Minion,0.0
+cat__id_31_Lanix/Ilium,0.0
+cat__id_31_M4Tel/M4,0.0
+cat__id_31_Microsoft/Windows,0.0
+cat__id_31_Mozilla/Firefox,0.0
+cat__id_33_1920x1081,0.0
+cat__id_31_Samsung/SM-G532M,0.0
+cat__id_31_ZTE/Blade,0.0
+cat__P_emaildomain_gmx.de,0.0
+cat__P_emaildomain_hotmail.co.uk,0.0
+cat__P_emaildomain_hotmail.de,0.0
+cat__P_emaildomain_hotmail.fr,0.0
+cat__P_emaildomain_juno.com,0.0
+cat__R_emaildomain_yahoo.co.jp,0.0
+cat__R_emaildomain_yahoo.co.uk,0.0
+cat__R_emaildomain_yahoo.de,0.0
+cat__R_emaildomain_yahoo.es,0.0
+cat__R_emaildomain_yahoo.fr,0.0
+cat__R_emaildomain_ymail.com,0.0
+cat__M1_F,0.0
+cat__M1_T,0.0
+cat__id_31_Nokia/Lumia,0.0
+cat__id_31_firefox generic,0.0
+cat__id_31_google,0.0
+cat__id_31_google search application 48.0,0.0
+cat__id_31_google search application 49.0,0.0
+cat__id_31_cyberfox,0.0
+cat__id_31_edge,0.0
+cat__id_31_edge 13.0,0.0
+cat__id_31_facebook,0.0
+cat__id_31_firefox 47.0,0.0
+cat__card6_charge card,0.0
+cat__card6_debit or credit,0.0
+cat__id_31_chrome 63.0 for ios,0.0
+cat__id_31_chrome 64.0 for ios,0.0
+cat__id_31_chrome 66.0 for ios,0.0
+cat__id_31_chrome 67.0,0.0
+cat__id_31_chrome 46.0 for android,0.0
+cat__id_31_chrome 55.0 for android,0.0
+cat__id_31_chrome 56.0,0.0
+cat__id_31_chrome 56.0 for android,0.0
+cat__id_31_chrome 57.0,0.0
+cat__id_31_chrome 57.0 for android,0.0
+cat__id_31_chrome 58.0 for android,0.0
+cat__id_31_chrome 59.0,0.0
+cat__id_31_chrome 59.0 for android,0.0
+cat__id_31_chrome 60.0,0.0
+cat__id_31_chrome 60.0 for android,0.0
+cat__id_31_chrome 62.0 for ios,0.0
+cat__id_31_android,0.0
+cat__id_31_aol,0.0
+cat__id_31_chrome,0.0
+cat__id_31_chrome 43.0 for android,0.0
+cat__id_31_chromium,0.0
+cat__P_emaildomain_servicios-ta.com,0.0
+cat__P_emaildomain_suddenlink.net,0.0
+cat__P_emaildomain_web.de,0.0
+cat__P_emaildomain_windstream.net,0.0
+cat__P_emaildomain_yahoo.co.jp,0.0
+cat__P_emaildomain_yahoo.co.uk,0.0
+cat__P_emaildomain_yahoo.de,0.0
+cat__P_emaildomain_yahoo.es,0.0
+cat__P_emaildomain_yahoo.fr,0.0
+cat__P_emaildomain_live.com.mx,0.0
+cat__P_emaildomain_live.fr,0.0
+cat__P_emaildomain_mac.com,0.0
+cat__P_emaildomain_netzero.com,0.0
+cat__P_emaildomain_netzero.net,0.0
+cat__P_emaildomain_frontier.com,0.0
+cat__P_emaildomain_ptd.net,0.0
+cat__P_emaildomain_q.com,0.0
+cat__P_emaildomain_roadrunner.com,0.0
+cat__DeviceInfo_rv:46.0,0.0
+cat__DeviceInfo_rv:47.0,0.0
+cat__DeviceInfo_rv:48.0,0.0
+cat__DeviceInfo_rv:49.0,0.0
+cat__DeviceInfo_rv:50.0,0.0
+cat__DeviceInfo_rv:51.0,0.0
+cat__DeviceInfo_rv:53.0,0.0
+cat__DeviceInfo_rv:54.0,0.0
+cat__DeviceInfo_rv:55.0,0.0
+cat__DeviceInfo_rv:56.0,0.0
+cat__DeviceInfo_rv:44.0,0.0
+cat__DeviceInfo_rv:39.0,0.0
+cat__P_emaildomain_outlook.es,0.0
+cat__R_emaildomain_prodigy.net.mx,0.0
+cat__R_emaildomain_ptd.net,0.0
+cat__R_emaildomain_q.com,0.0
+cat__R_emaildomain_roadrunner.com,0.0
+cat__R_emaildomain_rocketmail.com,0.0
+cat__R_emaildomain_sc.rr.com,0.0
+cat__R_emaildomain_scranton.edu,0.0
+cat__R_emaildomain_servicios-ta.com,0.0
+cat__R_emaildomain_suddenlink.net,0.0
+cat__R_emaildomain_twc.com,0.0
+cat__R_emaildomain_web.de,0.0
+cat__R_emaildomain_windstream.net,0.0
+cat__R_emaildomain_hotmail.de,0.0
+cat__R_emaildomain_hotmail.fr,0.0
+cat__R_emaildomain_juno.com,0.0
+cat__P_emaildomain_sc.rr.com,0.0
+cat__R_emaildomain_mac.com,0.0
+cat__R_emaildomain_netzero.com,0.0
+cat__R_emaildomain_netzero.net,0.0
+cat__R_emaildomain_optonline.net,0.0
+cat__R_emaildomain_att.net,0.0
+cat__R_emaildomain_bellsouth.net,0.0
+cat__R_emaildomain_cableone.net,0.0
+cat__R_emaildomain_centurylink.net,0.0
+cat__R_emaildomain_cfl.rr.com,0.0
+cat__R_emaildomain_embarqmail.com,0.0
+cat__R_emaildomain_frontier.com,0.0
+cat__R_emaildomain_frontiernet.net,0.0
+cat__R_emaildomain_gmail,0.0
+cat__R_emaildomain_gmx.de,0.0
+cat__R_emaildomain_hotmail.co.uk,0.0
+cat__R_emaildomain_live.fr,0.0
+cat__id_33_1371x857,0.0
+cat__id_33_1400x1050,0.0
+cat__id_33_1408x792,0.0
+cat__id_33_1408x880,0.0
+cat__id_33_1422x889,0.0
+cat__id_33_1439x809,0.0
+cat__id_33_1439x899,0.0
+cat__id_33_1439x900,0.0
+cat__id_33_1440x720,0.0
+cat__id_33_1440x803,0.0
+cat__id_33_1440x810,0.0
+cat__id_33_1440x899,0.0
+cat__id_33_1440x960,0.0
+cat__id_33_1441x901,0.0
+cat__id_31_firefox 60.0,0.0
+cat__id_33_1281x800,0.0
+cat__id_33_1281x801,0.0
+cat__id_33_1296x774,0.0
+cat__id_33_1344x756,0.0
+cat__id_33_1344x840,0.0
+cat__id_33_1356x900,0.0
+cat__id_33_1359x768,0.0
+cat__id_33_1360x767,0.0
+cat__id_33_1365x767,0.0
+cat__id_33_1365x768,0.0
+cat__id_33_1366x767,0.0
+cat__id_33_1272x960,0.0
+cat__id_33_1279x1023,0.0
+cat__id_33_1279x1024,0.0
+cat__id_33_1280x1023,0.0
+cat__id_33_1281x721,0.0
+cat__id_33_1920x1201,0.0
+cat__id_33_1624x1080,0.0
+cat__id_33_1638x922,0.0
+cat__id_33_1658x946,0.0
+cat__id_33_1679x1049,0.0
+cat__id_33_1680x1049,0.0
+cat__id_33_1680x1051,0.0
+cat__id_33_1680x945,0.0
+cat__id_33_1684x947,0.0
+cat__id_33_1707x960,0.0
+cat__id_33_1727x971,0.0
+cat__id_33_1728x972,0.0
+cat__id_33_1760x990,0.0
+cat__id_33_1768x992,0.0
+cat__id_33_1776x1000,0.0
+cat__id_33_1368x768,0.0
+cat__id_33_1480x720,0.0
+cat__id_33_1502x844,0.0
+cat__id_33_1502x845,0.0
+cat__id_33_1536x1152,0.0
+cat__id_33_1536x864,0.0
+cat__id_33_1536x960,0.0
+cat__id_33_1584x990,0.0
+cat__id_33_1596x710,0.0
+cat__id_33_1599x899,0.0
+cat__id_33_1599x900,0.0
+cat__id_33_1600x1000,0.0
+cat__id_33_1600x1024,0.0
+cat__id_33_1600x1200,0.0
+cat__id_33_1600x837,0.0
+cat__id_33_1600x899,0.0
+cat__id_33_1776x1080,0.0
+cat__id_33_1024x552,0.0
+cat__id_33_1024x640,0.0
+cat__id_33_1024x767,0.0
+cat__id_33_1024x819,0.0
+cat__id_31_opera 52.0,0.0
+cat__id_31_opera generic,0.0
+cat__id_31_palemoon,0.0
+cat__id_31_puffin,0.0
+cat__id_31_safari,0.0
+cat__id_31_safari 10.0,0.0
+cat__id_31_safari 11.0,0.0
+cat__id_31_samsung,0.0
+cat__id_31_samsung browser 3.3,0.0
+cat__id_31_samsung browser 4.0,0.0
+cat__id_33_1280x1025,0.0
+cat__id_31_samsung browser 5.2,0.0
+cat__id_31_samsung browser 5.4,0.0
+cat__id_31_icedragon,0.0
+cat__id_31_iron,0.0
+cat__id_31_line,0.0
+cat__id_31_maxthon,0.0
+cat__id_31_mobile,0.0
+cat__id_31_mobile safari 10.0,0.0
+cat__id_31_mobile safari 8.0,0.0
+cat__id_31_opera 49.0,0.0
+cat__id_31_opera 51.0,0.0
+cat__P_emaildomain_centurylink.net,0.0
+cat__P_emaildomain_cfl.rr.com,0.0
+cat__id_31_firefox 52.0,0.0
+cat__id_31_firefox 56.0,0.0
+cat__id_31_samsung browser 4.2,0.0
+cat__id_33_1280x600,0.0
+cat__id_33_1280x620,0.0
+cat__id_33_1280x712,0.0
+cat__id_33_1280x732,0.0
+cat__id_33_1280x768,0.0
+cat__id_33_1280x900,0.0
+cat__id_33_1280x960,0.0
+cat__id_33_1281x720,0.0
+cat__id_33_1025x768,0.0
+cat__id_33_1062x630,0.0
+cat__id_33_1093x615,0.0
+cat__id_33_1136x640,0.0
+cat__id_33_1138x640,0.0
+cat__id_33_1152x648,0.0
+cat__id_33_1152x720,0.0
+cat__id_33_1023x768,0.0
+cat__id_33_1184x720,0.0
+cat__id_33_1188x720,0.0
+cat__id_33_1200x675,0.0
+cat__id_33_1200x720,0.0
+cat__id_33_1229x691,0.0
+cat__id_33_1232x800,0.0
+cat__id_33_1239x697,0.0
+cat__id_33_1264x924,0.0
+cat__id_31_samsung browser 7.0,0.0
+cat__id_31_samsung browser generic,0.0
+cat__id_31_seamonkey,0.0
+cat__id_31_silk,0.0
+cat__id_31_waterfox,0.0
+cat__id_33_0x0,0.0
+cat__id_33_1023x767,0.0
+cat__id_33_1152x864,0.0
+cat__DeviceInfo_LG-H500 Build/LRX21Y,0.0
+cat__DeviceInfo_LG-H520,0.0
+cat__DeviceInfo_LG-H540,0.0
+cat__DeviceInfo_LG-H542 Build/LRX22G,0.0
+cat__DeviceInfo_LG-H631,0.0
+cat__DeviceInfo_LG-H650 Build/LMY47V,0.0
+cat__DeviceInfo_LG-H650 Build/MRA58K,0.0
+cat__DeviceInfo_LG-H700 Build/NRD90U,0.0
+cat__DeviceInfo_LG-H735 Build/LMY47V,0.0
+cat__DeviceInfo_LG-H810,0.0
+cat__DeviceInfo_LG-H810/H81021z,0.0
+cat__DeviceInfo_LG-H811 Build/MRA58K,0.0
+cat__DeviceInfo_LG-H812,0.0
+cat__DeviceInfo_LG-H815,0.0
+cat__DeviceInfo_BLADE V7 Build/MRA58K,0.0
+cat__DeviceInfo_LG-D802,0.0
+cat__DeviceInfo_LG-D850,0.0
+cat__DeviceInfo_LG-D851,0.0
+cat__DeviceInfo_LG-D855,0.0
+cat__DeviceInfo_LG-D855 Build/LRX21R,0.0
+cat__DeviceInfo_LG-D959,0.0
+cat__DeviceInfo_LG-E450f,0.0
+cat__DeviceInfo_LG-E975,0.0
+cat__DeviceInfo_LG-E980h,0.0
+cat__DeviceInfo_LG-H221,0.0
+cat__DeviceInfo_LG-H340AR,0.0
+cat__DeviceInfo_LG-H343,0.0
+cat__DeviceInfo_LG-H345,0.0
+cat__DeviceInfo_LG-H420 Build/LRX21Y,0.0
+cat__DeviceInfo_LG-H443/H44312g,0.0
+cat__DeviceInfo_LG-H815 Build/MRA58K,0.0
+cat__DeviceInfo_LG-LS997 Build/NRD90M,0.0
+cat__DeviceInfo_LG-H918 Build/NRD90M,0.0
+cat__DeviceInfo_LG-H931,0.0
+cat__DeviceInfo_LG-H932,0.0
+cat__DeviceInfo_LG-H933,0.0
+cat__DeviceInfo_LG-H960,0.0
+cat__DeviceInfo_LG-H990 Build/NRD90M,0.0
+cat__DeviceInfo_LG-K200 Build/MXB48T,0.0
+cat__DeviceInfo_LG-K212,0.0
+cat__DeviceInfo_LG-K240 Build/MXB48T,0.0
+cat__DeviceInfo_LG-K330,0.0
+cat__DeviceInfo_LG-K350,0.0
+cat__DeviceInfo_LG-K371,0.0
+cat__DeviceInfo_LG-K373,0.0
+cat__DeviceInfo_LG-K410 Build/LRX22G,0.0
+cat__DeviceInfo_LG-H910 Build/NRD90M,0.0
+cat__DeviceInfo_LG-H820,0.0
+cat__DeviceInfo_LG-H820 Build/NRD90U,0.0
+cat__DeviceInfo_LG-H830,0.0
+cat__DeviceInfo_LG-H830 Build/NRD90U,0.0
+cat__DeviceInfo_LG-H831 Build/NRD90U,0.0
+cat__DeviceInfo_LG-H840 Build/MMB29M,0.0
+cat__DeviceInfo_LG-H840 Build/NRD90U,0.0
+cat__DeviceInfo_LG-H850,0.0
+cat__DeviceInfo_LG-H850 Build/MMB29M,0.0
+cat__DeviceInfo_LG-H870 Build/NRD90U,0.0
+cat__DeviceInfo_LG-H870DS Build/NRD90U,0.0
+cat__DeviceInfo_LG-H871,0.0
+cat__DeviceInfo_LG-H872 Build/NRD90U,0.0
+cat__DeviceInfo_LG-H900/H90022b,0.0
+cat__DeviceInfo_LG-H901,0.0
+cat__DeviceInfo_LG-K420,0.0
+cat__DeviceInfo_Ilium X710 Build/MRA58K,0.0
+cat__DeviceInfo_Infinit,0.0
+cat__DeviceInfo_Infinix,0.0
+cat__DeviceInfo_Intel,0.0
+cat__DeviceInfo_Joy,0.0
+cat__DeviceInfo_K10,0.0
+cat__DeviceInfo_K88,0.0
+cat__DeviceInfo_K88 Build/MMB29M,0.0
+cat__DeviceInfo_K90U,0.0
+cat__DeviceInfo_K92,0.0
+cat__DeviceInfo_KFAPWI Build/KTU84M,0.0
+cat__DeviceInfo_KFASWI Build/LVY48F,0.0
+cat__DeviceInfo_KFAUWI Build/LVY48F,0.0
+cat__DeviceInfo_KFDOWI Build/LVY48F,0.0
+cat__DeviceInfo_LEX829,0.0
+cat__DeviceInfo_IdeaTabA1000-F,0.0
+cat__DeviceInfo_IdeaTabA2109A,0.0
+cat__DeviceInfo_Ilium,0.0
+cat__DeviceInfo_Ilium L1000 Build/LRX22G,0.0
+cat__DeviceInfo_Ilium L1120 Build/NRD90M,0.0
+cat__DeviceInfo_Ilium L610 Build/MRA58K,0.0
+cat__DeviceInfo_Ilium L620 Build/NRD90M,0.0
+cat__DeviceInfo_Ilium L910 Build/MRA58K,0.0
+cat__DeviceInfo_Ilium L950 Build/KTU84P,0.0
+cat__DeviceInfo_Ilium LT500 Build/LMY47O,0.0
+cat__DeviceInfo_Ilium LT520 Build/NRD90M,0.0
+cat__DeviceInfo_Ilium Pad T7X Build/LMY47I,0.0
+cat__DeviceInfo_Ilium X210 Build/LMY47I,0.0
+cat__DeviceInfo_Ilium X220 Build/MRA58K,0.0
+cat__DeviceInfo_HUAWEI Y625-U13 Build/HUAWEIY625-U13,0.0
+cat__DeviceInfo_IdeaTab,0.0
+cat__DeviceInfo_LG-D213,0.0
+cat__DeviceInfo_LG-D320,0.0
+cat__DeviceInfo_LG-D320 Build/KOT49I.V10a,0.0
+cat__DeviceInfo_LG-D331,0.0
+cat__DeviceInfo_LG-D331 Build/LRX22G,0.0
+cat__DeviceInfo_LG-D373,0.0
+cat__DeviceInfo_LG-D373 Build/KOT49I.V10a,0.0
+cat__DeviceInfo_LG-D400,0.0
+cat__DeviceInfo_LG-D625,0.0
+cat__DeviceInfo_LG-D680,0.0
+cat__DeviceInfo_LG-D680 Build/KOT49I,0.0
+cat__DeviceInfo_LG-D693n,0.0
+cat__DeviceInfo_LG-D722,0.0
+cat__DeviceInfo_LG-D725,0.0
+cat__DeviceInfo_KFFOWI Build/LVY48F,0.0
+cat__DeviceInfo_Ilium X520 Build/NRD90M,0.0
+cat__DeviceInfo_KFJWI,0.0
+cat__DeviceInfo_KFMEWI,0.0
+cat__DeviceInfo_KFSAWI,0.0
+cat__DeviceInfo_KFSOWI,0.0
+cat__DeviceInfo_KFSUWI Build/LVY48F,0.0
+cat__DeviceInfo_KFTBWI Build/LVY48F,0.0
+cat__DeviceInfo_KFTHWI Build/KTU84M,0.0
+cat__DeviceInfo_KFTT Build/IML74K,0.0
+cat__DeviceInfo_KIW-L24,0.0
+cat__DeviceInfo_KYOCERA-C6742A Build/LMY47V,0.0
+cat__DeviceInfo_KYY22,0.0
+cat__DeviceInfo_Kylin,0.0
+cat__DeviceInfo_LAVA_A3,0.0
+cat__DeviceInfo_LDN-LX3 Build/HUAWEILDN-LX3,0.0
+cat__DeviceInfo_Ilium X510 Build/MRA58K,0.0
+cat__DeviceInfo_KFGIWI Build/LVY48F,0.0
+cat__DeviceInfo_LGMS428,0.0
+cat__DeviceInfo_LGMS550 Build/MXB48T,0.0
+cat__DeviceInfo_LGMS550 Build/NRD90U,0.0
+cat__DeviceInfo_LGMS631,0.0
+cat__DeviceInfo_LGMS631 Build/MRA58K,0.0
+cat__DeviceInfo_LGUS215 Build/NRD90U,0.0
+cat__DeviceInfo_LGUS990,0.0
+cat__DeviceInfo_LGUS991,0.0
+cat__DeviceInfo_LGUS992,0.0
+cat__DeviceInfo_LIMIT,0.0
+cat__DeviceInfo_LM-X210(G,0.0
+cat__DeviceInfo_LOGIC,0.0
+cat__DeviceInfo_LS5,0.0
+cat__DeviceInfo_LT22i Build/6.2.A.1.100,0.0
+cat__DeviceInfo_LG-LS993 Build/NRD90U,0.0
+cat__DeviceInfo_LGLS675 Build/LMY47V,0.0
+cat__DeviceInfo_LGLS676 Build/MXB48T,0.0
+cat__DeviceInfo_LGLS751,0.0
+cat__DeviceInfo_LGLS755,0.0
+cat__DeviceInfo_LGLS770,0.0
+cat__DeviceInfo_LGLS775 Build/MMB29M,0.0
+cat__DeviceInfo_LGLS775 Build/NRD90U,0.0
+cat__DeviceInfo_LGLS990,0.0
+cat__DeviceInfo_LGLS991,0.0
+cat__DeviceInfo_LGLS992,0.0
+cat__DeviceInfo_LGMP260 Build/NRD90U,0.0
+cat__DeviceInfo_LGMP450 Build/NRD90U,0.0
+cat__DeviceInfo_LGMS210 Build/NRD90U,0.0
+cat__DeviceInfo_LGMS323,0.0
+cat__DeviceInfo_LGMS330 Build/LMY47V,0.0
+cat__DeviceInfo_LT30p,0.0
+cat__DeviceInfo_Lenovo YT3-X50F Build/MMB29M,0.0
+cat__DeviceInfo_Lenovo-A6020l36 Build/LMY47V,0.0
+cat__DeviceInfo_LenovoA3300-GV Build/JDQ39,0.0
+cat__DeviceInfo_Linux,0.0
+cat__DeviceInfo_Linux i686,0.0
+cat__DeviceInfo_Linux x86_64,0.0
+cat__DeviceInfo_M10/Q1010,0.0
+cat__DeviceInfo_M4,0.0
+cat__DeviceInfo_M4 SS4450 Build/MRA58K,0.0
+cat__DeviceInfo_M4 SS4451 Build/LMY47D,0.0
+cat__DeviceInfo_M4 SS4452 Build/LMY47V,0.0
+cat__DeviceInfo_M4 SS4453 Build/MMB29M,0.0
+cat__DeviceInfo_M4 SS4456 Build/LMY47V,0.0
+cat__DeviceInfo_M4 SS4457 Build/MRA58K,0.0
+cat__DeviceInfo_M4 SS4457-R Build/NRD90M,0.0
+cat__DeviceInfo_LGMS395,0.0
+cat__DeviceInfo_Lenovo,0.0
+cat__DeviceInfo_Lenovo A2016b30 Build/MRA58K,0.0
+cat__DeviceInfo_Lenovo A6020l37 Build/LMY47V,0.0
+cat__DeviceInfo_Lenovo K33b36 Build/MMB29M,0.0
+cat__DeviceInfo_Lenovo K33b36 Build/NRD90N,0.0
+cat__DeviceInfo_Lenovo PB1-750M Build/S100,0.0
+cat__DeviceInfo_Lenovo PB2-650Y Build/MRA58K,0.0
+cat__DeviceInfo_Lenovo PB2-670Y Build/MRA58K,0.0
+cat__DeviceInfo_Lenovo TAB 2 A7-30GC Build/KOT49H,0.0
+cat__DeviceInfo_Lenovo TB-7703X Build/S100,0.0
+cat__DeviceInfo_Lenovo TB-X103F Build/LenovoTB-X103F,0.0
+cat__DeviceInfo_Lenovo TB2-X30F Build/LenovoTB2-X30F,0.0
+cat__DeviceInfo_Lenovo TB3-710F Build/LRX21M,0.0
+cat__DeviceInfo_Lenovo TB3-710I Build/LMY47I,0.0
+cat__DeviceInfo_Lenovo YT3-850F Build/MMB29M,0.0
+cat__DeviceInfo_Le X520 Build/IEXCNFN5902303111S,0.0
+cat__DeviceInfo_LG-LS998,0.0
+cat__DeviceInfo_LG-M150,0.0
+cat__DeviceInfo_LG-M153 Build/MXB48T,0.0
+cat__DeviceInfo_LG-M154,0.0
+cat__DeviceInfo_LG-M200 Build/NRD90U,0.0
+cat__DeviceInfo_LG-M210 Build/NRD90U,0.0
+cat__DeviceInfo_LG-M250 Build/NRD90U,0.0
+cat__DeviceInfo_LG-M255,0.0
+cat__DeviceInfo_LG-M257,0.0
+cat__DeviceInfo_LG-M320 Build/NRD90U,0.0
+cat__DeviceInfo_LG-M322,0.0
+cat__DeviceInfo_LG-M327 Build/NRD90U,0.0
+cat__DeviceInfo_LG-M400 Build/NRD90U,0.0
+cat__DeviceInfo_LG-M430 Build/NRD90U,0.0
+cat__DeviceInfo_LGMS345,0.0
+cat__DeviceInfo_LG-M710 Build/NRD90U,0.0
+cat__DeviceInfo_LG-K428 Build/MMB29M,0.0
+cat__DeviceInfo_LG-K428 Build/NRD90U,0.0
+cat__DeviceInfo_LG-K430 Build/MRA58K,0.0
+cat__DeviceInfo_LG-K450 Build/MXB48T,0.0
+cat__DeviceInfo_LG-K500 Build/MMB29M,0.0
+cat__DeviceInfo_LG-K530 Build/MMB29M,0.0
+cat__DeviceInfo_LG-K530 Build/NRD90U,0.0
+cat__DeviceInfo_LG-K540 Build/MMB29M,0.0
+cat__DeviceInfo_LG-K550,0.0
+cat__DeviceInfo_LG-K550 Build/NRD90U,0.0
+cat__DeviceInfo_LG-K580 Build/MRA58K,0.0
+cat__DeviceInfo_LG-LG870,0.0
+cat__DeviceInfo_LG-LK460,0.0
+cat__DeviceInfo_LG-LS777 Build/NRD90U,0.0
+cat__DeviceInfo_LG-M700 Build/NMF26X,0.0
+cat__DeviceInfo_LG-X210 Build/LMY47I,0.0
+cat__DeviceInfo_LG-X220 Build/LMY47I,0.0
+cat__DeviceInfo_LG-X230 Build/MRA58K,0.0
+cat__DeviceInfo_LG-X240 Build/MRA58K,0.0
+cat__DeviceInfo_LGL163BL,0.0
+cat__DeviceInfo_LGL164VL Build/NRD90U,0.0
+cat__DeviceInfo_LGL33L/V100,0.0
+cat__DeviceInfo_LGL41C,0.0
+cat__DeviceInfo_LGL52VL Build/LMY47V,0.0
+cat__DeviceInfo_LGL57BL,0.0
+cat__DeviceInfo_LGL58VL,0.0
+cat__DeviceInfo_LGL62VL,0.0
+cat__DeviceInfo_LGL83BL,0.0
+cat__DeviceInfo_LGL84VL Build/NRD90U,0.0
+cat__DeviceInfo_LGLK430,0.0
+cat__DeviceInfo_LG-X180g Build/LMY47I,0.0
+cat__DeviceInfo_LG-P708g,0.0
+cat__DeviceInfo_LG-P714,0.0
+cat__DeviceInfo_LG-SP320,0.0
+cat__DeviceInfo_LG-TP260 Build/NRD90U,0.0
+cat__DeviceInfo_LG-TP450 Build/NRD90U,0.0
+cat__DeviceInfo_LG-V410,0.0
+cat__DeviceInfo_LG-V495,0.0
+cat__DeviceInfo_LG-V495/V49520l,0.0
+cat__DeviceInfo_LG-V496,0.0
+cat__DeviceInfo_LG-V500,0.0
+cat__DeviceInfo_LG-V520,0.0
+cat__DeviceInfo_LG-V521,0.0
+cat__DeviceInfo_LG-V522,0.0
+cat__DeviceInfo_LG-V930,0.0
+cat__DeviceInfo_LG-X165g Build/LRX21M,0.0
+cat__DeviceInfo_LGLS665 Build/LMY47V,0.0
+cat__DeviceInfo_E6810,0.0
+cat__DeviceInfo_E6810 Build/5.320VZ.03.r,0.0
+cat__DeviceInfo_E6833,0.0
+cat__DeviceInfo_E6853,0.0
+cat__DeviceInfo_E6853 Build/32.4.A.1.54,0.0
+cat__DeviceInfo_E8QP,0.0
+cat__DeviceInfo_EGO,0.0
+cat__DeviceInfo_EML-L29 Build/HUAWEIEML-L29,0.0
+cat__DeviceInfo_EVA-L09 Build/HUAWEIEVA-L09,0.0
+cat__DeviceInfo_EVA-L19 Build/HUAWEIEVA-L19,0.0
+cat__DeviceInfo_E2303,0.0
+cat__DeviceInfo_E2306 Build/26.1.A.3.111,0.0
+cat__DeviceInfo_E2306 Build/26.3.A.1.33,0.0
+cat__DeviceInfo_E501,0.0
+cat__DeviceInfo_Hisense,0.0
+cat__DeviceInfo_E5306 Build/27.3.A.0.165,0.0
+cat__DeviceInfo_E5506,0.0
+cat__DeviceInfo_E5506 Build/29.1.A.0.101,0.0
+cat__DeviceInfo_E5506 Build/29.2.A.0.166,0.0
+cat__DeviceInfo_E5606,0.0
+cat__DeviceInfo_E5606 Build/30.2.A.1.21,0.0
+cat__DeviceInfo_E5803,0.0
+cat__DeviceInfo_E5803 Build/32.4.A.1.54,0.0
+cat__DeviceInfo_E5823,0.0
+cat__DeviceInfo_E5823 Build/32.4.A.1.54,0.0
+cat__DeviceInfo_E6553,0.0
+cat__DeviceInfo_D5316,0.0
+cat__DeviceInfo_D5316 Build/19.4.A.0.182,0.0
+cat__DeviceInfo_D5803 Build/23.5.A.1.291,0.0
+cat__DeviceInfo_D6503,0.0
+cat__DeviceInfo_E5306 Build/27.3.A.0.129,0.0
+cat__DeviceInfo_F5321,0.0
+cat__DeviceInfo_F5321 Build/34.2.A.2.47,0.0
+cat__DeviceInfo_F5321 Build/34.3.A.0.238,0.0
+cat__DeviceInfo_F80 PIABELLA Build/MRA58K,0.0
+cat__DeviceInfo_F80'S+,0.0
+cat__DeviceInfo_F8131,0.0
+cat__DeviceInfo_F8331,0.0
+cat__DeviceInfo_F8331 Build/41.2.A.7.76,0.0
+cat__DeviceInfo_F8332,0.0
+cat__DeviceInfo_FEVER,0.0
+cat__DeviceInfo_Edison,0.0
+cat__DeviceInfo_Energy X 2 Build/E050L,0.0
+cat__DeviceInfo_F1f Build/LMY47V,0.0
+cat__DeviceInfo_F3111 Build/33.3.A.1.115,0.0
+cat__DeviceInfo_F3111 Build/33.3.A.1.97,0.0
+cat__DeviceInfo_E6790TM,0.0
+cat__DeviceInfo_F3113 Build/33.2.A.3.81,0.0
+cat__DeviceInfo_F3113 Build/33.2.A.4.70,0.0
+cat__DeviceInfo_F3113 Build/33.3.A.1.97,0.0
+cat__DeviceInfo_F3213,0.0
+cat__DeviceInfo_F3213 Build/36.0.A.2.146,0.0
+cat__DeviceInfo_F3213 Build/36.1.A.1.86,0.0
+cat__DeviceInfo_F3311,0.0
+cat__DeviceInfo_F3313,0.0
+cat__DeviceInfo_F3313 Build/37.0.A.2.108,0.0
+cat__DeviceInfo_F3313 Build/37.0.A.2.248,0.0
+cat__DeviceInfo_E6603,0.0
+cat__DeviceInfo_E6603 Build/32.4.A.1.54,0.0
+cat__DeviceInfo_E6633,0.0
+cat__DeviceInfo_E6653 Build/32.4.A.1.54,0.0
+cat__DeviceInfo_E6683,0.0
+cat__DeviceInfo_F3113,0.0
+cat__DeviceInfo_Build/OPM1.171019.011,0.0
+cat__DeviceInfo_Build/OPR1.170623.032,0.0
+cat__DeviceInfo_Build/OPR6.170623.013,0.0
+cat__DeviceInfo_C1904,0.0
+cat__DeviceInfo_C2104,0.0
+cat__DeviceInfo_C6603,0.0
+cat__DeviceInfo_C6743 Build/LMY47V,0.0
+cat__DeviceInfo_BLU ENERGY X PLUS Build/LRX21M,0.0
+cat__DeviceInfo_BLU LIFE XL Build/L050U,0.0
+cat__DeviceInfo_BLU STUDIO C 5+5 Build/LRX21M,0.0
+cat__DeviceInfo_BND-L21 Build/HONORBND-L21,0.0
+cat__DeviceInfo_BND-L34,0.0
+cat__DeviceInfo_BNTV400,0.0
+cat__DeviceInfo_BOIE9,0.0
+cat__DeviceInfo_D6603,0.0
+cat__DeviceInfo_BV7000,0.0
+cat__DeviceInfo_BV8000Pro,0.0
+cat__DeviceInfo_Beat,0.0
+cat__DeviceInfo_Blade,0.0
+cat__DeviceInfo_Blade A460 Build/LMY47O,0.0
+cat__DeviceInfo_Blade A465 Build/LMY47D,0.0
+cat__DeviceInfo_Blade A475 Build/LMY47D,0.0
+cat__DeviceInfo_BBB100-2,0.0
+cat__DeviceInfo_BBB100-3,0.0
+cat__DeviceInfo_BG2-W09,0.0
+cat__DeviceInfo_BLA-L09 Build/HUAWEIBLA-L09,0.0
+cat__DeviceInfo_BLA-L29 Build/HUAWEIBLA-L29,0.0
+cat__DeviceInfo_BLADE A520 Build/NRD90M,0.0
+cat__DeviceInfo_BLADE A602 Build/MRA58K,0.0
+cat__DeviceInfo_BLADE L7 Build/MRA58K,0.0
+cat__DeviceInfo_BV6000,0.0
+cat__DeviceInfo_D6603 Build/23.5.A.1.291,0.0
+cat__DeviceInfo_D6708,0.0
+cat__DeviceInfo_DASH,0.0
+cat__DeviceInfo_DLI-L22 Build/HONORDLI-L22,0.0
+cat__DeviceInfo_DOMOS,0.0
+cat__DeviceInfo_DT0704K08,0.0
+cat__DeviceInfo_DUK-AL20,0.0
+cat__DeviceInfo_Dream,0.0
+cat__DeviceInfo_E2006,0.0
+cat__DeviceInfo_E2104,0.0
+cat__DeviceInfo_E2104 Build/24.0.A.5.14,0.0
+cat__DeviceInfo_C6903,0.0
+cat__DeviceInfo_C6906,0.0
+cat__DeviceInfo_C6906 Build/14.6.A.1.236,0.0
+cat__DeviceInfo_CAM-L03 Build/HUAWEICAM-L03,0.0
+cat__DeviceInfo_Build/KOT49H,0.0
+cat__DeviceInfo_CPH1701,0.0
+cat__DeviceInfo_CPH1723,0.0
+cat__DeviceInfo_Coolpad,0.0
+cat__DeviceInfo_D2306,0.0
+cat__DeviceInfo_D2306 Build/18.6.A.0.182,0.0
+cat__DeviceInfo_D2406,0.0
+cat__DeviceInfo_D5106,0.0
+cat__DeviceInfo_D5306,0.0
+cat__DeviceInfo_D5306 Build/19.4.A.0.182,0.0
+cat__DeviceInfo_Blade L2 Plus Build/KOT49H,0.0
+cat__DeviceInfo_Blade L5 Build/LMY47I,0.0
+cat__DeviceInfo_Blade V580 Build/LMY47D,0.0
+cat__DeviceInfo_Blade V6 Max Build/MRA58K,0.0
+cat__DeviceInfo_Blade V6 Plus Build/MRA58K,0.0
+cat__DeviceInfo_Bolt,0.0
+cat__DeviceInfo_CPH1607,0.0
+cat__DeviceInfo_HTC6545LVW,0.0
+cat__DeviceInfo_HTCD100LVWPP,0.0
+cat__DeviceInfo_HTCD200LVW,0.0
+cat__DeviceInfo_HTC_D10i,0.0
+cat__DeviceInfo_HTC_Desire_820,0.0
+cat__DeviceInfo_HTC_One,0.0
+cat__DeviceInfo_HTC_One_M8/4.28.502.2,0.0
+cat__DeviceInfo_HTC_One_M8s/2.12.111.1,0.0
+cat__DeviceInfo_HUAWEI,0.0
+cat__DeviceInfo_HUAWEI Build/MMB28B,0.0
+cat__DeviceInfo_HUAWEI CAN-L01 Build/HUAWEICAN-L01,0.0
+cat__DeviceInfo_HUAWEI CAN-L11 Build/HUAWEICAN-L11,0.0
+cat__DeviceInfo_HT0701A16,0.0
+cat__DeviceInfo_HT0703K16,0.0
+cat__DeviceInfo_F5122,0.0
+cat__DeviceInfo_HTC 10 Build/NRD90M,0.0
+cat__DeviceInfo_HTC Desire 510 Build/KOT49H,0.0
+cat__DeviceInfo_HTC Desire 526G Build/KOT49H,0.0
+cat__DeviceInfo_HTC Desire 530 Build/MMB29M,0.0
+cat__DeviceInfo_HTC Desire 626s Build/LMY47O,0.0
+cat__DeviceInfo_HTC Desire 650 Build/MMB29M,0.0
+cat__DeviceInfo_HTC One A9 Build/NRD90M,0.0
+cat__DeviceInfo_HTC One A9s Build/MRA58K,0.0
+cat__DeviceInfo_HTC One Build/LRX22G,0.0
+cat__DeviceInfo_HTC One mini Build/KOT49H,0.0
+cat__DeviceInfo_HTC One_M8 Build/MRA58K,0.0
+cat__DeviceInfo_GT-P5210 Build/KOT49H,0.0
+cat__DeviceInfo_GT-S5310L,0.0
+cat__DeviceInfo_GT-S7390,0.0
+cat__DeviceInfo_GT-S7580L Build/JDQ39,0.0
+cat__DeviceInfo_HTC,0.0
+cat__DeviceInfo_Hisense E51 Build/LMY47V,0.0
+cat__DeviceInfo_Hisense F102 Build/NRD90M,0.0
+cat__DeviceInfo_Hisense F20 Build/MMB29M,0.0
+cat__DeviceInfo_Hisense F23 Build/NRD90M,0.0
+cat__DeviceInfo_Hisense F24 Build/NRD90M,0.0
+cat__DeviceInfo_Hisense F32 Build/NMF26F,0.0
+cat__DeviceInfo_Hisense F8 MINI Build/NRD90M,0.0
+cat__DeviceInfo_Hisense L675 PRO Build/NRD90M,0.0
+cat__DeviceInfo_Hisense T963 Build/MRA58K,0.0
+cat__DeviceInfo_Hisense U963 Build/MRA58K,0.0
+cat__DeviceInfo_ICON,0.0
+cat__DeviceInfo_ILIUM,0.0
+cat__DeviceInfo_IO,0.0
+cat__DeviceInfo_HUAWEI CUN-L03 Build/HUAWEICUN-L03,0.0
+cat__DeviceInfo_HUAWEI G7-L03 Build/HuaweiG7-L03,0.0
+cat__DeviceInfo_HTC6535LVW,0.0
+cat__DeviceInfo_HUAWEI LUA-U23 Build/HUAWEILUA-U23,0.0
+cat__DeviceInfo_HUAWEI LYO-L21 Build/HUAWEILYO-L21,0.0
+cat__DeviceInfo_HUAWEI M2-801W Build/HUAWEIM2-801W,0.0
+cat__DeviceInfo_HUAWEI NXT-L09 Build/HUAWEINXT-L09,0.0
+cat__DeviceInfo_HUAWEI RIO-L03 Build/HUAWEIRIO-L03,0.0
+cat__DeviceInfo_HUAWEI TAG-L13 Build/HUAWEITAG-L13,0.0
+cat__DeviceInfo_HUAWEI VNS-L21 Build/HUAWEIVNS-L21,0.0
+cat__DeviceInfo_HUAWEI VNS-L31 Build/HUAWEIVNS-L31,0.0
+cat__DeviceInfo_HUAWEI VNS-L53 Build/HUAWEIVNS-L53,0.0
+cat__DeviceInfo_HUAWEI Y360-U23 Build/HUAWEIY360-U23,0.0
+cat__DeviceInfo_HUAWEI Y520-U03 Build/HUAWEIY520-U03,0.0
+cat__DeviceInfo_HUAWEI Y560-L03 Build/HUAWEIY560-L03,0.0
+cat__DeviceInfo_HTC U11 Build/NMF26X,0.0
+cat__DeviceInfo_HTC U11 Build/OPR6.170623.013,0.0
+cat__DeviceInfo_HTC6500LVW,0.0
+cat__DeviceInfo_HUAWEI GRA-L09 Build/HUAWEIGRA-L09,0.0
+cat__DeviceInfo_G8141,0.0
+cat__DeviceInfo_G8141 Build/47.1.A.5.51,0.0
+cat__DeviceInfo_G8142,0.0
+cat__DeviceInfo_G8341,0.0
+cat__DeviceInfo_GRACE,0.0
+cat__DeviceInfo_GRANT,0.0
+cat__DeviceInfo_GT-I8190L Build/JZO54K,0.0
+cat__DeviceInfo_GT-I8200N,0.0
+cat__DeviceInfo_GT-I9060L Build/JDQ39,0.0
+cat__DeviceInfo_GT-I9060M Build/KTU84P,0.0
+cat__DeviceInfo_FIG-LX3 Build/HUAWEIFIG-LX3,0.0
+cat__DeviceInfo_FP2,0.0
+cat__DeviceInfo_FRD-L04 Build/HUAWEIFRD-L04,0.0
+cat__DeviceInfo_FRD-L09 Build/HUAWEIFRD-L09,0.0
+cat__DeviceInfo_GT-S7582,0.0
+cat__DeviceInfo_FTJ152D,0.0
+cat__DeviceInfo_Fractal,0.0
+cat__DeviceInfo_G25524K,0.0
+cat__DeviceInfo_G3123,0.0
+cat__DeviceInfo_G3123 Build/40.0.A.6.135,0.0
+cat__DeviceInfo_G3123 Build/40.0.A.6.175,0.0
+cat__DeviceInfo_G3123 Build/40.0.A.6.189,0.0
+cat__DeviceInfo_G3223,0.0
+cat__DeviceInfo_G3223 Build/42.0.A.4.101,0.0
+cat__DeviceInfo_G3223 Build/42.0.A.4.167,0.0
+cat__DeviceInfo_G3313,0.0
+cat__DeviceInfo_F5121,0.0
+cat__DeviceInfo_F5121 Build/34.3.A.0.238,0.0
+cat__DeviceInfo_F5121 Build/34.3.A.0.252,0.0
+cat__DeviceInfo_F5121 Build/34.4.A.2.19,0.0
+cat__DeviceInfo_FRD-L14 Build/HUAWEIFRD-L14,0.0
+cat__DeviceInfo_GT-S7582L,0.0
+cat__DeviceInfo_Grand,0.0
+cat__DeviceInfo_Grand2c,0.0
+cat__DeviceInfo_Gravity Build/NRD90M,0.0
+cat__DeviceInfo_H1611,0.0
+cat__DeviceInfo_H3321,0.0
+cat__DeviceInfo_H550,0.0
+cat__DeviceInfo_HELIO,0.0
+cat__DeviceInfo_HIGHWAY,0.0
+cat__DeviceInfo_HP,0.0
+cat__DeviceInfo_GT-I9195I,0.0
+cat__DeviceInfo_GT-I9195L,0.0
+cat__DeviceInfo_GT-I9300,0.0
+cat__DeviceInfo_GT-I9500,0.0
+cat__DeviceInfo_GT-I9505 Build/LRX22C,0.0
+cat__DeviceInfo_G630-U251,0.0
+cat__DeviceInfo_GT-I9515,0.0
+cat__DeviceInfo_GT-N5110,0.0
+cat__DeviceInfo_GT-N5110 Build/JDQ39,0.0
+cat__DeviceInfo_GT-N7100,0.0
+cat__DeviceInfo_GT-N8000,0.0
+cat__DeviceInfo_GT-N8010,0.0
+cat__DeviceInfo_GT-P3100,0.0
+cat__DeviceInfo_GT-P5110,0.0
+cat__DeviceInfo_GT-P5113,0.0
+cat__DeviceInfo_GT-P5210 Build/JDQ39,0.0
+cat__DeviceInfo_G3313 Build/43.0.A.5.79,0.0
+cat__DeviceInfo_G3313 Build/43.0.A.7.25,0.0
+cat__DeviceInfo_G3423,0.0
+cat__DeviceInfo_G527-U081,0.0
+cat__DeviceInfo_G620S-L03,0.0
+cat__DeviceInfo_GT-I9506,0.0

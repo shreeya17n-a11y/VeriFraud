@@ -1,0 +1,3 @@
+Dataset,Transactions,Fraud_Cases,Legitimate_Cases,Fraud_Percentage,Columns
+PaySim,6362620,8213,6354407,0.1291,11
+BankSim,594643,7200,587443,1.2108,10

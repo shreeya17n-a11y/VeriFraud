@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-10-21T05:00:33+00:00",
+  "input_files": {
+    "drift": {
+      "path": "outputs/paysim_drift_summary.json",
+      "exists": true
+    },
+    "comparison": {
+      "path": "outputs/paysim_model_comparison_summary.json",
+      "exists": true
+    },
+    "threshold": {
+      "path": "outputs/paysim_threshold_summary.json",
+      "exists": true
+    },
+    "cases": {
+      "path": "outputs/paysim_cases.csv",
+      "exists": true
+    },
+    "audit": {
+      "path": "outputs/paysim_case_audit.csv",
+      "exists": true
+    },
+    "investigations": {
+      "path": "outputs/paysim_investigation_results.csv",
+      "exists": true
+    }
+  },
+  "data_drift": {
+    "overall_status": "CRITICAL",
+    "critical_features": 3,
+    "warning_features": 1,
+    "feature_results": [
+      {
+        "Feature": "step",
+        "Feature_Type": "numeric",
+        "Drift_Metric": "PSI",
+        "Drift_Score": 12.559939409598321,
+        "Warning_Threshold": 0.1,
+        "Critical_Threshold": 0.25,
+        "Status": "CRITICAL_DRIFT",
+        "Reference_Rows": 5000,
+        "Current_Rows": 5000,
+        "Generated_At": "2026-10-21T04:31:17+00:00"
+      },
+      {
+        "Feature": "amount",
+        "Feature_Type": "numeric",
+        "Drift_Metric": "PSI",
+        "Drift_Score": 0.25447015852371824,
+        "Warning_Threshold": 0.1,
+        "Critical_Threshold": 0.25,
+        "Status": "CRITICAL_DRIFT",
+        "Reference_Rows": 5000,
+        "Current_Rows": 5000,
+        "Generated_At": "2026-10-21T04:31:17+00:00"
+      },
+      {
+        "Feature": "oldbalanceOrg",
+        "Feature_Type": "numeric",
+        "Drift_Metric": "PSI",
+        "Drift_Score": 0.597691474662144,
+        "Warning_Threshold": 0.1,
+        "Critical_Threshold": 0.25,
+        "Status": "CRITICAL_DRIFT",
+        "Reference_Rows": 5000,
+        "Current_Rows": 5000,
+        "Generated_At": "2026-10-21T04:31:17+00:00"
+      },
+      {
+        "Feature": "oldbalanceDest",
+        "Feature_Type": "numeric",
+        "Drift_Metric": "PSI",
+        "Drift_Score": 0.011797876124568674,
+        "Warning_Threshold": 0.1,
+        "Critical_Threshold": 0.25,
+        "Status": "NO_MAJOR_DRIFT",
+        "Reference_Rows": 5000,
+        "Current_Rows": 5000,
+        "Generated_At": "2026-10-21T04:31:17+00:00"
+      },
+      {
+        "Feature": "type",
+        "Feature_Type": "categorical",
+        "Drift_Metric": "TOTAL_VARIATION_DISTANCE",
+        "Drift_Score": 0.2486,
+        "Warning_Threshold": 0.1,
+        "Critical_Threshold": NaN,
+        "Status": "WARNING_DRIFT",
+        "Reference_Rows": 5000,
+        "Current_Rows": 5000,
+        "Generated_At": "2026-10-21T04:31:17+00:00"
+      }
+    ]
+  },
+  "model_comparison": {
+    "successful_runs": 6,
+    "failed_runs": 0,
+    "best_average_precision": {
+      "Model": "XGBoost",
+      "Strategy": "class_weight",
+      "Average_Precision": 0.8480674860275165
+    }
+  },
+  "threshold_evaluation": {
+    "selected_threshold": 0.9500000000000002,
+    "test_metrics": {
+      "Threshold": 0.9500000000000002,
+      "Precision": 0.7844932844932845,
+      "Recall": 0.7769044740024184,
+      "F1": 0.7806804374240583,
+      "True_Positives": 1285,
+      "False_Positives": 353,
+      "True_Negatives": 121573,
+      "False_Negatives": 369,
+      "False_Positive_Rate": 0.0028951987270967637
+    },
+    "test_average_precision": 0.8480674860275165,
+    "test_roc_auc": 0.9934388761704748
+  },
+  "case_management": {
+    "saved_cases": 26,
+    "priority_counts": {
+      "P2-HIGH": 20,
+      "P1-CRITICAL": 6
+    },
+    "risk_counts": {
+      "ELEVATED": 20,
+      "HIGH": 6
+    },
+    "case_status_counts": {
+      "OPEN": 26
+    },
+    "audit_events": 26
+  },
+  "investigations": {
+    "rows": 500,
+    "verification_counts": {
+      "FAITHFUL": 500
+    },
+    "repair_counts": {
+      "NOT_NEEDED": 466,
+      "REPAIRED_AND_PASSED": 34
+    },
+    "disposition_counts": {
+      "ROUTINE_MONITORING": 474,
+      "OPEN_ADDITIONAL_SCREENING": 20,
+      "OPEN_HIGH_RISK_INVESTIGATION": 6
+    },
+    "escalation_recommended": 26
+  },
+  "interpretation_limits": [
+    "Explanation faithfulness is not proof that a fraud prediction is correct.",
+    "Input drift is not proof of reduced model performance.",
+    "Threshold metrics belong to the separately trained threshold experiment.",
+    "Case records provide decision support; no banking actions are executed."
+  ]
+}

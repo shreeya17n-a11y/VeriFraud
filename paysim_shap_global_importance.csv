@@ -1,0 +1,10 @@
+feature,mean_absolute_shap
+num__amount,3.8289497
+num__oldbalanceOrg,3.2046974
+cat__type_PAYMENT,1.6045884
+cat__type_CASH_OUT,1.0657076
+num__oldbalanceDest,1.0621525
+num__step,0.91319776
+cat__type_CASH_IN,0.8754198
+cat__type_TRANSFER,0.27052903
+cat__type_DEBIT,0.006669832

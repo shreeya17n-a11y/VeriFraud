@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeriFraud | Fraud Investigation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="brand-mark">VF</div>
+            <div>
+                <div class="brand-name">VeriFraud</div>
+                <div class="brand-subtitle">Fraud Investigation</div>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-label">INVESTIGATION</div>
+            <label class="select-label" for="transactionSelect">Transaction</label>
+            <select id="transactionSelect" class="transaction-select">
+                <option value="">Loading transactions...</option>
+            </select>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-label">ANALYSIS PIPELINE</div>
+
+            <div class="pipeline-item active">
+                <div class="pipeline-number">01</div>
+                <div><strong>Detection</strong><span>XGBoost</span></div>
+            </div>
+            <div class="pipeline-line"></div>
+
+            <div class="pipeline-item">
+                <div class="pipeline-number">02</div>
+                <div><strong>Explainability</strong><span>SHAP</span></div>
+            </div>
+            <div class="pipeline-line"></div>
+
+            <div class="pipeline-item">
+                <div class="pipeline-number">03</div>
+                <div><strong>Narration</strong><span>Qwen 2.5 3B</span></div>
+            </div>
+            <div class="pipeline-line"></div>
+
+            <div class="pipeline-item">
+                <div class="pipeline-number">04</div>
+                <div><strong>Verification</strong><span>Faithfulness</span></div>
+            </div>
+        </div>
+
+        <div class="sidebar-footer">
+            <span class="status-dot"></span>
+            System operational
+        </div>
+    </aside>
+
+    <main class="main">
+
+        <header class="topbar">
+            <div>
+                <div class="eyebrow">FINANCIAL RISK OPERATIONS</div>
+                <h1>Fraud Investigation</h1>
+                <p>Review model decisions, SHAP evidence, generated explanations and verification results.</p>
+            </div>
+
+            <div class="engine-status">
+                <span class="status-dot"></span>
+                <div>
+                    <strong>VeriFraud Engine</strong>
+                    <span>Operational</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="summary-grid">
+            <div class="summary-card">
+                <span class="summary-label">DETECTION MODEL</span>
+                <strong>XGBoost</strong>
+                <small>Fraud classification</small>
+            </div>
+
+            <div class="summary-card">
+                <span class="summary-label">EXPLAINABILITY</span>
+                <strong>SHAP</strong>
+                <small>Feature attribution</small>
+            </div>
+
+            <div class="summary-card">
+                <span class="summary-label">LOCAL LANGUAGE MODEL</span>
+                <strong>Qwen 2.5 3B</strong>
+                <small>Evidence-grounded narration</small>
+            </div>
+
+            <div class="summary-card">
+                <span class="summary-label">TRANSACTIONS AVAILABLE</span>
+                <strong id="caseCount">—</strong>
+                <small>Fraud + non-fraud transactions</small>
+            </div>
+        </section>
+
+        <section class="dashboard-grid">
+            <section class="panel dashboard-panel">
+                <div class="panel-header">
+                    <div>
+                        <span class="step">01</span>
+                        <div>
+                            <h3>Confusion Matrix</h3>
+                            <p>Saved test results for the best average-precision model and strategy</p>
+                        </div>
+                    </div>
+                </div>
+                <p id="confusionMeta" class="muted-copy">Loading saved evaluation results…</p>
+                <div class="table-wrap">
+                    <table id="confusionTable">
+                        <thead><tr><th>Actual / Predicted</th><th>LEGITIMATE</th><th>FRAUD</th></tr></thead>
+                        <tbody><tr><td colspan="3">Loading…</td></tr></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="panel dashboard-panel">
+                <div class="panel-header">
+                    <div>
+                        <span class="step">02</span>
+                        <div>
+                            <h3>Model Comparison</h3>
+                            <p>All saved model and strategy results</p>
+                        </div>
+                    </div>
+                </div>
+                <p id="modelMeta" class="muted-copy">Loading model comparison…</p>
+                <div class="table-wrap">
+                    <table id="modelTable">
+                        <thead></thead>
+                        <tbody><tr><td>Loading…</td></tr></tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+
+        <section class="case-header">
+            <div>
+                <span class="section-kicker">CASE REVIEW</span>
+                <h2>Transaction <span id="caseId">—</span></h2>
+            </div>
+
+            <div id="predictionBadge" class="badge">Select Transaction</div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <div>
+                    <span class="step">01</span>
+                    <div>
+                        <h3>Model Detection</h3>
+                        <p>XGBoost fraud probability</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detection-grid">
+                <div class="metric">
+                    <span>Transaction ID</span>
+                    <strong id="transactionId">—</strong>
+                </div>
+
+                <div class="metric">
+                    <span>Fraud Probability</span>
+                    <strong id="probability">—</strong>
+                    <div class="probability-track">
+                        <div id="probabilityBar" class="probability-bar"></div>
+                    </div>
+                </div>
+
+                <div class="metric">
+                    <span>Model Decision</span>
+                    <strong id="modelDecision" class="fraud-text">—</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <div>
+                    <span class="step">02</span>
+                    <div>
+                        <h3>SHAP Evidence</h3>
+                        <p>Feature contributions behind the model decision</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="evidence-grid">
+                <div class="evidence-card positive">
+                    <div class="evidence-title">
+                        <span class="indicator positive-dot"></span>
+                        <strong>Contributing to fraud</strong>
+                    </div>
+                    <div id="positiveFeatures" class="feature-list">
+                        Select a transaction.
+                    </div>
+                </div>
+
+                <div class="evidence-card negative">
+                    <div class="evidence-title">
+                        <span class="indicator negative-dot"></span>
+                        <strong>Reducing fraud score</strong>
+                    </div>
+                    <div id="negativeFeatures" class="feature-list">
+                        Select a transaction.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <div>
+                    <span class="step">03</span>
+                    <div>
+                        <h3>Evidence-Grounded Explanation</h3>
+                        <p>Natural-language interpretation generated from SHAP evidence</p>
+                    </div>
+                </div>
+                <span class="model-tag">Qwen 2.5 3B · LOCAL</span>
+            </div>
+
+            <div class="explanation">
+                <div class="explanation-label">AI REPORT FOR THE SELECTED TRANSACTION</div>
+
+                <p id="transactionReportSummary" class="report-summary">
+                    Select a transaction to see its report.
+                </p>
+
+                <div class="transaction-report-facts">
+                    <div>
+                        <span>Model decision</span>
+                        <strong id="reportDecision">—</strong>
+                    </div>
+                    <div>
+                        <span>Estimated fraud probability</span>
+                        <strong id="reportProbability">—</strong>
+                    </div>
+                    <div>
+                        <span>Decision threshold</span>
+                        <strong id="reportThreshold">—</strong>
+                    </div>
+                    <div>
+                        <span>Transaction details</span>
+                        <strong id="reportContext">—</strong>
+                    </div>
+                </div>
+
+                <h4>Why the model reached this decision</h4>
+
+                <div class="report-evidence-grid">
+                    <div>
+                        <h4>Factors pushing the score toward fraud</h4>
+                        <ul id="reportPositiveFactors"></ul>
+                    </div>
+                    <div>
+                        <h4>Factors pushing the score away from fraud</h4>
+                        <ul id="reportNegativeFactors"></ul>
+                    </div>
+                </div>
+
+                <div class="narrative-block">
+                    <h4>AI-generated explanation</h4>
+                    <div id="explanationText" class="explanation-text">
+                        Select a transaction to view its explanation.
+                    </div>
+                </div>
+
+                <p class="explanation-note">
+                    This is a model assessment, not confirmation of fraud. SHAP values show
+                    how features influenced the model score; they are not transaction amounts.
+                </p>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel-header">
+                <div>
+                    <span class="step">04</span>
+                    <div>
+                        <h3>Faithfulness Verification</h3>
+                        <p>Checks whether the explanation agrees with SHAP evidence</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="verificationBox" class="verification-box">
+                <div class="verification-main">
+                    <span class="summary-label">VERIFICATION STATUS</span>
+                    <strong id="verificationStatus">—</strong>
+                    <p id="verificationReason">
+                        Select a transaction to view the verification result.
+                    </p>
+                </div>
+
+                <div class="verification-side">
+                    <span class="summary-label">PURPOSE</span>
+                    <p>
+                        Prevent unsupported claims from being presented as explanations
+                        of the ML model.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="panel autonomous-panel" aria-labelledby="autonomousHeading">
+            <div class="panel-header">
+                <div>
+                    <span class="step">05</span>
+                    <div>
+                        <h3 id="autonomousHeading">Autonomous AI Investigation</h3>
+                        <p>Automated checks and investigation outcome for this transaction</p>
+                    </div>
+                </div>
+                <span id="autonomousStatusBadge" class="autonomous-status">Awaiting transaction</span>
+            </div>
+
+            <div class="autonomous-content">
+                <div class="autonomous-kpi-grid">
+                    <div class="autonomous-kpi"><span>Risk level</span><strong id="autonomousRisk">—</strong></div>
+                    <div class="autonomous-kpi"><span>Checks passed</span><strong id="autonomousChecksPassed">—</strong></div>
+                    <div class="autonomous-kpi"><span>Failed / unresolved</span><strong id="autonomousChecksFailed">—</strong></div>
+                </div>
+
+                <div class="autonomous-meta-grid">
+                    <div><span>Investigation outcome</span><strong id="autonomousOutcome">—</strong></div>
+                    <div><span>Explanation verification</span><strong id="autonomousVerification">—</strong></div>
+                    <div><span>Repair status</span><strong id="autonomousRepair">—</strong></div>
+                    <div><span>Last run</span><strong id="autonomousTimestamp">—</strong></div>
+                </div>
+
+                <details class="autonomous-details">
+                    <summary>View recorded checks <span id="autonomousCheckCount"></span></summary>
+                    <div id="autonomousActionLog" class="autonomous-action-list">
+                        Select a transaction to view its checks.
+                    </div>
+                </details>
+
+                <div class="autonomous-findings">
+                    <h4>Unresolved findings</h4>
+                    <div id="autonomousFindings">—</div>
+                </div>
+
+                <div class="autonomous-conclusion">
+                    <h4>Investigation conclusion</h4>
+                    <p id="autonomousConclusion">Select a transaction to view the conclusion.</p>
+                </div>
+                <p id="autonomousScope" class="autonomous-scope">
+                    Automated analysis of the supplied PaySim data and saved model evidence.
+                </p>
+            </div>
+        </section>
+
+        <section class="report-download-footer">
+            <div>
+                <h3>Download the selected transaction report</h3>
+                <p>Includes the transaction explanation, confusion matrix, model comparison, and monitoring results.</p>
+            </div>
+            <button id="downloadTransactionReport" class="report-download" type="button" disabled>
+                Download selected report
+            </button>
+        </section>
+
+        <footer>
+            VeriFraud · Explainable Fraud Detection Research System
+        </footer>
+
+    </main>
+</div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</body>
+</html>

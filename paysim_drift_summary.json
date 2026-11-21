@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-10-21T04:31:17+00:00",
+  "dataset": "PS_20174392719_1491204439457_log.csv",
+  "reference_rows": 5000,
+  "current_rows": 5000,
+  "overall_status": "CRITICAL",
+  "critical_features": 3,
+  "warning_features": 1,
+  "not_computable_features": 0,
+  "feature_results": [
+    {
+      "Feature": "step",
+      "Feature_Type": "numeric",
+      "Drift_Metric": "PSI",
+      "Drift_Score": 12.559939409598321,
+      "Warning_Threshold": 0.1,
+      "Critical_Threshold": 0.25,
+      "Status": "CRITICAL_DRIFT",
+      "Reference_Rows": 5000,
+      "Current_Rows": 5000,
+      "Generated_At": "2026-10-21T04:31:17+00:00"
+    },
+    {
+      "Feature": "amount",
+      "Feature_Type": "numeric",
+      "Drift_Metric": "PSI",
+      "Drift_Score": 0.25447015852371824,
+      "Warning_Threshold": 0.1,
+      "Critical_Threshold": 0.25,
+      "Status": "CRITICAL_DRIFT",
+      "Reference_Rows": 5000,
+      "Current_Rows": 5000,
+      "Generated_At": "2026-10-21T04:31:17+00:00"
+    },
+    {
+      "Feature": "oldbalanceOrg",
+      "Feature_Type": "numeric",
+      "Drift_Metric": "PSI",
+      "Drift_Score": 0.597691474662144,
+      "Warning_Threshold": 0.1,
+      "Critical_Threshold": 0.25,
+      "Status": "CRITICAL_DRIFT",
+      "Reference_Rows": 5000,
+      "Current_Rows": 5000,
+      "Generated_At": "2026-10-21T04:31:17+00:00"
+    },
+    {
+      "Feature": "oldbalanceDest",
+      "Feature_Type": "numeric",
+      "Drift_Metric": "PSI",
+      "Drift_Score": 0.011797876124568674,
+      "Warning_Threshold": 0.1,
+      "Critical_Threshold": 0.25,
+      "Status": "NO_MAJOR_DRIFT",
+      "Reference_Rows": 5000,
+      "Current_Rows": 5000,
+      "Generated_At": "2026-10-21T04:31:17+00:00"
+    },
+    {
+      "Feature": "type",
+      "Feature_Type": "categorical",
+      "Drift_Metric": "TOTAL_VARIATION_DISTANCE",
+      "Drift_Score": 0.2486,
+      "Warning_Threshold": 0.1,
+      "Critical_Threshold": NaN,
+      "Status": "WARNING_DRIFT",
+      "Reference_Rows": 5000,
+      "Current_Rows": 5000,
+      "Generated_At": "2026-10-21T04:31:17+00:00"
+    }
+  ],
+  "interpretation": "Drift indicates a change in input distributions, not proof of reduced model accuracy or fraud."
+}
